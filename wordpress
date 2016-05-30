@@ -1,0 +1,135 @@
+
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js"> <!--<![endif]--><html>
+	<head>
+		<title>Melanie Daveid - UX Design & Art Direction</title>
+
+		<!-- META DATA -->
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<meta name="description" content=""/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0"/>
+
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+		<!-- CSS -->
+		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link type="text/css" rel="stylesheet" href="./assets/css/styles.min.css?v=1.7" />
+
+		<!-- JAVASCRIPT -->
+		<script type="text/javascript" src="./assets/js/respond.min.js"></script>
+		<script type="text/javascript" src="./assets/js/modernizr.min.js"></script>
+
+	</head>
+	<body class="loading">
+		<div class="project">
+			<div class="project__content">
+				<div class="row">
+					<div class="column--s-12 column--xl-8 column-offset--xl-2 padding--s-3 padding--m-6">
+						<p class="text-align--s-left">
+							Windhager, one of the leading boiler manufacturers world wide, entered the mobile market for heating-control applications with their product myComfort. 
+						</p>
+						<p class="text-align--s-left">
+							An easy-to-use app that enables people to have full control of their heating system at any time and everywhere.
+						</p>
+					</div>
+				</div>
+				<div class="row" style="background-color: #efefef;">
+					<div class="column--s-12">
+						<div class="padding--vertical--s-3 padding--vertical--m-6 text-align--s-center">
+							<h4 class="subtitled">UI & Interactions</h4>
+							<h6 class="text-color--red proxima-nova-bold uppercase">iOS App</h6>
+						</div>
+						<img src="./assets/img/content/windhager/01-windhager.jpg" class="responsive" alt="">
+						<div class="padding--vertical--s-3 padding--vertical--m-6 text-align--s-center"></div>
+						<img src="./assets/img/content/windhager/02-windhager.jpg" class="responsive" alt="">
+						<div class="padding--vertical--s-3 padding--vertical--m-6 text-align--s-center"></div>
+					</div>
+				</div>
+
+
+				
+				<div class="row" style="background-color: #e74342;">
+					<div class="column--s-12 column--xl-8 column-offset--xl-2 padding--s-3 padding--m-6">
+						<h4 class="proxima-nova-bold" style="color: #fff">Intuitive Handling</h4>
+						<p style="color: #fff">
+							The heating process can be regulated with intuitive touch gestures like drag, swipe or slide which are consistently used throughout the app to keep the learning curve of the potential target audience low and to avoid frustration. 
+						</p>
+						<p style="color: #fff">
+							In addition to the myComfort app, users will be able to check the status of their system on an online platform. This service makes real time communication between user, heating system and service team possible. 
+						</p>
+					</div>
+				</div>
+
+				<div class="row" style="background-color: #efefef;">
+					<div class="column--s-12">
+						<img src="./assets/img/content/windhager/03-windhager.jpg" class="responsive" alt="">
+					</div>
+				</div>
+
+				<div class="row" style="background-color: #e74342;">
+					<div class="column--s-12 column--xl-8 column-offset--xl-2 padding--s-3 padding--m-6">
+						<h4 class="proxima-nova-bold" style="color: #fff">Online Platform & Service Backend</h4>
+						<p style="color: #fff">
+							The service backend which contained the set-up process of the heating system was a very challenging assignment. 
+						</p>
+						<p style="color: #fff">
+							After structuring the various interaction options with user journeys, the technical part had to be added which required a close collaboration with the development team. These steps were followed by wireframes which built the groundwork for discussions and prototypes. 
+						</p>
+						<p style="color: #fff">
+							Beautiful interactions and animations garnish the product page that introduces the app to potential new customers and gives detailed information about the features and needed setup. 
+						</p>
+					</div>
+				</div>
+
+				<div class="row" style="background-color: #efefef;">
+					<div class="column--s-12">
+						<div class="padding--vertical--s-3 padding--vertical--m-6 text-align--s-center">
+							<h4 class="subtitled">UI & Interactions</h4>
+							<h6 class="text-color--red proxima-nova-bold uppercase">Product Page</h6>
+						</div>
+						<img src="./assets/img/content/windhager/04-windhager.jpg" class="responsive" alt="">
+						<div class="padding--vertical--s-3 padding--vertical--m-6 text-align--s-center"></div>
+					</div>
+				</div>
+
+				<div>
+					<div class="column--s-12 padding--s-4 text-align--s-center" style="background-color: #efefef;">
+						<p class="subtitled" style="font-size: 11px;">Client: Windhager</p>
+						<p class="subtitled" style="font-size: 11px;">Agency: LOOP New Media</p>
+					</div>
+				</div>
+				
+				
+				<div class="row background-color--white text-align--s-center">
+					<div class="column--s-12 column--m-8 column-offset--m-2 padding--s-3 padding--m-6">
+						<a data-next-project href="#" class="button--hexagon">
+							<span class="slice"></span>
+							<span class="slice"></span>
+							<span class="slice"></span>
+							<span class="slice"></span>
+							<span class="slice"></span>
+							<span class="slice"></span>
+							<span class="button__label text-color--white">Next</span>
+						</a>
+					</div>
+				</div>
+				
+
+				
+			</div>
+		</div>
+
+		
+		<script src="./assets/js/vendor.min.js"></script>
+		<script src="./assets/js/plugins.min.js"></script>
+		<script src="./assets/js/scripts.min.js"></script>
+
+
+	</body>
+
+</html>
