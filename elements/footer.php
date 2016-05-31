@@ -12,7 +12,7 @@
             
             <section id="slidebox--webdesign-elements" class="fullpage-section block anime--box" style="height: 1300px;">
                 
-                <ul class="anime">
+<!--                <ul class="anime">
                     <li class="sk8er1"
                           data-start="left: -200px; top: 10px; opacity: 0"
                       data-7500-start="left: -200px; top: 10px; opacity: 0"
@@ -61,26 +61,43 @@
                       data-8400-start="left: 920px; top: 10px; opacity: 1"
                       data-8400-start="left: 920px; top: 10px; opacity: 0"
                       data-8500-start="left: 2000px; top: 10px; opacity: 0"></li>
-                  </ul>
+                  </ul>-->
                 
-                               
+            </section><!-- fullpage-section -->
+                      
+            <section class="fullpage-section block block--hero" data-viewport-height="100">
                 <div class="block__content vertical-align-helper text-align--s-center">                    
                     <div class="vertical-align--s-middle text-color--white">
                         <h2 class="text-color--yellow subtitled uppercase">
                         Get social with pete
                         <span class="text-color--white">I’m everywhere simply cos I love what I do<br>Geek isn’t just work</span>
-                    </h2>
+                        </h2>
+                        <nav>
+                            <ul class="social-nav montserrat text-color--white text-size-small">
+                                <li><a target="_blank" href="https://plus.google.com/u/0/+PiotrKarski"><img src="./images/footer/ft-gp.png" alt="Google+"><span>Google+</span></a></li>
+                                <li><a target="_blank" href="https://www.facebook.com/pitaapan"><img src="./images/footer/ft-fb.png" alt="Google+"><span>Facebook</span></a></li>
+                                <li><a target="_blank" href="https://twitter.com/NoweMEble"><img src="./images/footer/ft-tw.png" alt="Google+"><span>Twitter</span></a></li>
+                                <li><a target="_blank" href="https://www.linkedin.com/in/petekarski"><img src="./images/footer/ft-in.png" alt="Google+"><span>LinkedIn</span></a></li>
+
+                                <li><a target="_blank" href="https://www.youtube.com/user/pitaapan"><img src="./images/footer/ft-yt.png" alt="Google+"><span>You Tube</span></a></li>
+                                <li><a target="_blank" href="http://www.last.fm/user/pitaapan"><img src="./images/footer/ft-fm.png" alt="Google+"><span>Last.fm</span></a></li>
+                                <li><a target="_blank" href="https://uk.pinterest.com/pitaapan/life-is-a-game"><img src="./images/footer/ft-pn.png" alt="Google+"><span>Pinterest</span></a></li>
+                                <li><a target="_blank" href="https://teamtreehouse.com/pitaapan"><img src="./images/footer/ft-tr.png" alt="Google+"><span>Treehouse</span></a></li> 
+                            </ul>
+                        </nav>
+                        <div class="clearfix">
+                            <a class="button--ghost cv" target="_blank" href="./images/footer/Pete_Karski_CV.pdf">Download my CV.pdf</a>
+                        </div>
                     </div>
                 </div>
-                
+
                 <nav class="main-nav text-color--white text-align--s-center">
-                    <p>Copyright <?php echo date('Y')?></p>
                     <div class="hidden--s hidden--m">
                         <?php include 'elements/nav.php'; ?>
                     </div>
+                    <p class="text-size-small">&copy; <?php echo date('Y')?> &nbsp; www.karski.nz</p>
                 </nav>
             </section><!-- fullpage-section -->
-
         </footer>
 
         </div><!-- site-wrapper -->

@@ -805,6 +805,7 @@ td.visible--print,th.visible--print{display:table-cell!important}
 .hidden--print{display:none!important}
 }
 @media (min-width:1px) {
+.text-size-small {font-size: 14px;}
 .text-align--s-left{text-align:left}
 .text-align--s-center{text-align:center}
 .text-align--s-right{text-align:right}
@@ -940,37 +941,10 @@ td.visible--print,th.visible--print{display:table-cell!important}
 .line-collapse {line-height:1em!important}
 .underlined {text-decoration:underline}
 
-.button,.button--default,.button--ghost,.button--solid,.button--underlined{display:inline-block;text-decoration:none;padding:12px 36px;margin-bottom:1.2em;line-height:1em;background:0 0;border:none}
-.button .button__icon,.button--default .button__icon,.button--ghost .button__icon,.button--solid .button__icon,.button--underlined .button__icon{display:inline-block;vertical-align:middle;min-width:1em;text-align:center;line-height:1em;margin-right:5px}
-.button .button__label,.button--default .button__label,.button--ghost .button__label,.button--solid .button__label,.button--underlined .button__label{display:inline-block;vertical-align:middle;line-height:1em}
-.button .button__label+.button__icon,.button--default .button__label+.button__icon,.button--ghost .button__label+.button__icon,.button--solid .button__label+.button__icon,.button--underlined .button__label+.button__icon{margin-left:5px;margin-right:0}
-.button--icon-only.button--default .button__icon,.button--icon-only.button--ghost .button__icon,.button--icon-only.button--solid .button__icon,.button--icon-only.button--underlined .button__icon,.button.button--icon-only .button__icon{margin:0}
-.button--default.button--icon-only{padding:12px}
-.button--default.button--white-to-black{color:#fff}
-.button--default.button--black-to-red,.button--default.button--white-to-black:hover{color:#000}
-.button--default.button--black-to-red:hover{color:#f7484e}
-.button--default.button--white-to-red{color:#fff}
-.button--default.button--white-to-red:hover{color:#f7484e}
-.button--solid.button--white-to-black{background-color:#fff;color:#000}
-.button--solid.button--black-to-red,.button--solid.button--white-to-black:hover{background-color:#000;color:#fff}
-.button--solid.button--black-to-red:hover{background-color:#f7484e;color:#fff}
-.button--solid.button--white-to-red{background-color:#fff;color:#fff}
-.button--solid.button--white-to-red:hover{background-color:#f7484e;color:#fff}
-.button--solid.button--icon-only{padding:12px}
-.button--underlined{border-bottom:2px solid;padding:11px 9px}
-.button--underlined.button--white-to-black{border-color:#fff;color:#fff}
-.button--underlined.button--black-to-red,.button--underlined.button--white-to-black:hover{border-color:#000;color:#000}
-.button--underlined.button--black-to-red:hover{border-color:#f7484e;color:#f7484e}
-.button--underlined.button--white-to-red{border-color:#fff;color:#fff}
-.button--underlined.button--white-to-red:hover{border-color:#f7484e;color:#f7484e}
-.button--underlined.button--icon-only{padding:11px 12px}
-.button--ghost{border:2px solid;padding:10px 34px}
-.button--ghost.button--white-to-black{border-color:#fff;color:#fff}
-.button--ghost.button--black-to-red,.button--ghost.button--white-to-black:hover{border-color:#000;color:#000}
-.button--ghost.button--black-to-red:hover{border-color:#f7484e;color:#f7484e}
-.button--ghost.button--white-to-red{border-color:#fff;color:#fff}
-.button--ghost.button--white-to-red:hover{border-color:#f7484e;color:#f7484e}
-.button--ghost.button--icon-only{padding:10px}
+.button--ghost {border:2px solid; border-radius: 4px; padding: 20px 35px; text-decoration: none; transition: 0.4s;}
+.button--ghost.cv {position: relative; top: 80px; border-color: #ecb062; color: #ecb062;}
+.button--ghost.cv:hover {border-color: #7f7272; color: #7f7272;}
+
 figure{margin:0}
 img.responsive{display:block}
 div[class*=padding]>:last-child{margin-bottom:0}
@@ -979,8 +953,7 @@ nav>ol li,nav>ul li{margin:0;padding:0}
 
 @media (min-width:1px) {
     body{font-size:1em}
-    ul{margin-top:0;margin-bottom:1.6em}
-    ul li{line-height:1.75em}
+
     .as-h1,.as-h2,.as-h3,.as-h4,.as-h5,.as-h6,h1,h2,h3,h4,h5,h6,p{margin-top:0}
     p{margin-bottom:1.6em;line-height:1.75em}
     .as-h1,.as-h2,.as-h3,.as-h4,.as-h5,.as-h6,h1,h2,h3,h4,h5,h6{line-height:1.2em;margin-bottom:1.2em;position:relative}

@@ -26,8 +26,8 @@ i.icon {font-family: icons, sans-serif; font-weight:400; font-style:normal; text
 .button--hexagon .button__label{z-index:200;position:relative;text-transform:uppercase;font-size:12px;letter-spacing:.05em;top:50%;left:0;display:block;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);line-height:1em}
 body{overflow:hidden}
 body.loaded{overflow:auto}
-a,a:visited{color:#f7484e;text-decoration:underline}
-a:active,a:hover{text-decoration:none}
+a, a:visited {color:inherit; text-decoration: none;}
+a:active, a:hover {text-decoration: none;}
 .preloading .site-wrapper{top:50vh}
 .site-wrapper{position:relative;top:0;width:100%;overflow:hidden}
 
@@ -36,11 +36,23 @@ a:active,a:hover{text-decoration:none}
 #bg-video {position: absolute; top: 50%; left: 50%; width: auto; height: auto; min-width: 100%; min-height: 100%; -webkit-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
 
 @media (min-width:1px) {
-    .site-footer {overflow:hidden;}
-    /*.site-footer:after{content:'';display:block;padding-top:150%}*/
+.site-footer {overflow:hidden;}
+.site-footer ul.social-nav li {float: left; width: 50%;}
+.site-footer ul.social-nav a {position: relative; display: block; margin: 0 auto; width: 120px; height: 180px; color: #fff; text-decoration: none; transition: 0.4s;}
+.site-footer ul.social-nav a img {position: absolute; top: 0; right: calc(50% - 60px); transition: 0.4s;
+    -webkit-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.75);}
+.site-footer ul.social-nav a span {position: absolute; width: 122px; bottom: 30px; right: calc(50% - 60px); text-align: center;}
+.site-footer ul.social-nav a:hover {color: #ecb062;}
+.site-footer ul.social-nav a img:hover {top: 2px; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none;}
+
 }
 @media (min-width:768px) {
-    /*.site-footer:after{padding-top:200%}*/
+    .site-footer ul.social-nav li {float: left; width: 25%;}
+}
+@media (min-width:992px) {
+    .site-footer ul.social-nav li {float: left; width: 12.5%;}
 }
 @media (min-width:1px) {
     .main-nav{position:absolute;bottom:0;left:0;right:0}
@@ -164,10 +176,7 @@ a:active,a:hover{text-decoration:none}
 @media (min-width:1px) {
 .block--contact .chapter__content>div{padding-bottom:65px}
 .block--contact .chapter__content .imprint{position:absolute;left:0;bottom:0}
-.block--contact .social-nav ul{text-align:left;margin:0}
-.block--contact .social-nav ul li{display:inline-block;margin:0 12px}
-.block--contact .social-nav ul li a{color:inherit;text-transform:uppercase;text-decoration:none;font-size:14px}
-.block--contact .social-nav ul li a img{max-width:35px;max-height:35px}
+
 }
 @media (min-width:1px) {
     .block--about .portrait{max-width: 150px; position: absolute; right: calc(50% - 75px); margin-top: -115px;}
