@@ -1,4 +1,5 @@
 /* General Reset */
+* {margin: 0; padding: 0; outline: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
 html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 body{margin:0}
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}
@@ -977,42 +978,54 @@ nav>ol,nav>ul{list-style:none;padding:0;margin:0}
 nav>ol li,nav>ul li{margin:0;padding:0}
 
 @media (min-width:1px) {
-body{font-size:1em}
-ul{margin-top:0;margin-bottom:1.6em}
-ul li{line-height:1.75em}
-.as-h1,.as-h2,.as-h3,.as-h4,.as-h5,.as-h6,h1,h2,h3,h4,h5,h6,p{margin-top:0}
-p{margin-bottom:1.6em;line-height:1.75em}
-.as-h1,.as-h2,.as-h3,.as-h4,.as-h5,.as-h6,h1,h2,h3,h4,h5,h6{line-height:1.2em;margin-bottom:1.2em;position:relative}
-.as-h1,h1{font-size:2.25em}
-.as-h2,h2{font-size:2em}
-.as-h3,h3{font-size:1.625em}
-.as-h4,h4{font-size:1.375em}
-.as-h5,h5{font-size:1.125em}
-.as-h6,h6{font-size:.875em}
+    body{font-size:1em}
+    ul{margin-top:0;margin-bottom:1.6em}
+    ul li{line-height:1.75em}
+    .as-h1,.as-h2,.as-h3,.as-h4,.as-h5,.as-h6,h1,h2,h3,h4,h5,h6,p{margin-top:0}
+    p{margin-bottom:1.6em;line-height:1.75em}
+    .as-h1,.as-h2,.as-h3,.as-h4,.as-h5,.as-h6,h1,h2,h3,h4,h5,h6{line-height:1.2em;margin-bottom:1.2em;position:relative}
+    .as-h1,h1{font-size:2.25em}
+    .as-h2,h2{font-size:2em}
+    .as-h3,h3{font-size:1.625em}
+    .as-h4,h4{font-size:1.375em}
+    .as-h5,h5{font-size:1.125em}
+    .as-h6,h6{font-size:.875em}
+
+    ul.lists li {width: 100%; float: left; list-style: none;}
+    ul.tools li img {float: left; margin: 10px 10px 10px 0;}
+    ul.tools li span {position: relative; top: 31px;}
+    ul.checks li {padding: 0 0 0 30px; background: url("../images/sections/check.png") 0 50% no-repeat;}
+
 }
 @media (min-width:768px) {
-.as-h1,h1{font-size:2.5em}
-.as-h2,h2{font-size:2em}
-.as-h3,h3{font-size:1.625em}
-.as-h4,h4{font-size:1.375em}
-.as-h5,h5{font-size:1.125em}
-.as-h6,h6{font-size:.875em}
+    .as-h1,h1{font-size:2.5em}
+    .as-h2,h2{font-size:2em}
+    .as-h3,h3{font-size:1.625em}
+    .as-h4,h4{font-size:1.375em}
+    .as-h5,h5{font-size:1.125em}
+    .as-h6,h6{font-size:.875em}
+    
+    ul.lists li {width: 50%;}
+    
 }
 @media (min-width:992px) {
-.as-h1,h1{font-size:3em}
-.as-h2,h2{font-size:2.5em}
-.as-h3,h3{font-size:2em}
-.as-h4,h4{font-size:1.5em}
-.as-h5,h5{font-size:1.25em}
-.as-h6,h6{font-size:.875em}
+    .as-h1,h1{font-size:3em}
+    .as-h2,h2{font-size:2.5em}
+    .as-h3,h3{font-size:2em}
+    
+
 }
 @media (min-width:1200px) {
-.as-h1,h1{font-size:3.75em}
-.as-h2,h2{font-size:3em}
-.as-h3,h3{font-size:2.25em}
-.as-h4,h4{font-size:1.75em}
-.as-h5,h5{font-size:1.375em}
-.as-h6,h6{font-size:.875em}
+    .as-h1,h1{font-size:3.75em}
+    .as-h2,h2{font-size:3em}
+    .as-h3,h3{font-size:2.25em}
+
+
+}
+
+@media (min-width:1440px) {
+    ul.lists li {width: 33.333%;}
+    
 }
 
 .row--768{max-width:768px;margin-left:auto;margin-right:auto}

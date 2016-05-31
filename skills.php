@@ -13,92 +13,74 @@
         </nav>
     </div><!-- chapter__title -->
     <div class="chapter__content">
-        <div class="row padding--s-2 padding--m-4 padding--xl-8">
-            <div class="column--s-12 padding--s-1 padding--m-2">
-                <p class="montserrat">I am a Pete</p>
+        <div class="row padding--s-2 padding--m-4 padding--xl-5">
+            <div class="column--s-12 padding--s-1 padding--m-0">
+                <h3 class="montserrat">Key Skills</h3>
                 <p>
-                    What the hell is going on here this I do not know yet, boy!
+                    I am a Front End Developer and Designer with over 5 years commercial experience. Loving what I do, it becomes so easy to acquire new skills and keep on advancing. For what it's worth I am always thirsty for more. Find a snapshot of my talents below please.
                 </p>
-            </div>
-            <div class="column--s-12">
-
-                <div class="row">
-                        <div class="column--s-12 padding--s-1 padding--m-2">
-                                <h5 class="">Art Direction</h5>
+                    <h4>Developer skills</h4>
+                    <div class="row padding--l-1">
+                        <div class="column--xl-4 column--m-6 column--s-12">
+                            HTML5 
                         </div>
-                        <div class="row">
-                                <!-- <div class="column--m-9 column--l-8 column--xl-9 padding--s-1 padding--m-2"> -->
-                                <div class="column--s-12  padding--s-1 padding--m-2">
-                                        <p>
-                                                Starting with basic websites several years ago I found myself working as an Art Director for complex projects with a holistic approach soon. Visually appealing designs, subtle details and brand guidelines combined to innovative interfaces across various touch points became my daily companion. 
-                                        </p>
-                                </div>
-                                <!-- <div class="column--m-3 column--l-4 column--xl-3 padding--s-1 padding--m-2 hidden--s">
-                                        <img src="./images/content/head-ad.jpg" class="responsive" alt="">
-                                </div> -->
+                        <div class="column--xl-4 column--s-6 column--s-12">
+                            Cross-browser
                         </div>
-                        <div class="column--s-12 padding--s-1 padding--m-2">
-                                <p>
-                                        <strong>
-                                                Out of this love for aesthetic design my passion for functionality and structure evolved. Jumping right into Photoshop didn’t feel accurate anymore and skipping the steps of building a framework based on functionality and usability became inevitable.
-                                        </strong>
-                                </p>
-                        </div>
-                </div><!-- row -->
-
-                <div class="row">
-                        <div class="column--s-12 padding--s-1 padding--m-2">
-                                <h5 class="">UX Design</h5>
-                        </div>
-                        <div class="row">
-                                <!-- <div class="column--m-3 column--l-4 column--xl-3 padding--s-1 padding--m-2  hidden--s">
-                                        <img src="./images/content/head-ux.jpg" class="responsive" alt="">
-                                </div> -->
-                                <div class="column--s-12  padding--s-1 padding--m-2">
-                                        <p>
-                                                A user-centered mindset and sensitivity for design turned out to be the perfect fit when collaborating with agencies, clients and brands to develop digital concepts and solve problems together.
-                                        </p>
-                                </div>
-                        </div>
-                    <div class="column--s-12 padding--s-1 padding--m-2">
-                        <p>
-                            This rough framework outlines my process of developing digital experiences:
-                        </p>
-                        <p class="subtitled">
-                            <span class="montserrat uppercase"><span class="text-color--red">1.</span> Research</span> and gather the present state <br>
-                            <span class="montserrat uppercase"><span class="text-color--red">2.</span> Structure</span> setup and content of the project  <br>
-                            <span class="montserrat uppercase"><span class="text-color--red">3.</span> Concept and Strategy </span><br>
-                            <span class="montserrat uppercase"><span class="text-color--red">4.</span> Create</span>, evaluate and iterate deliverables like
-                            <br>
-                        </p>
-                        <ul>
-                            <li>Personas</li>
-                            <li>Site maps</li>
-                            <li>Use cases and scenarios</li>
-                            <li>User flow</li>
-                            <li>Sketches and Infographics</li>
-                            <li>Wireframes</li>
-                        </ul>
-                    </div>
-                </div><!-- row -->
-
-                <div class="row">
-                    <div class="column--s-12 padding--s-1 padding--m-2">
-                        <p>
-                            Communicating the conceptual approach/UX strategy and reasoning behind it, is present during the whole process.
-                        </p>
-                    </div>
-                    <div class="row">
-                        <div class="column--m-3 column--l-4 column--xl-3 padding--s-1 padding--m-2  hidden--s">
-                            
-                        </div>
-                        <div class="column--m-9 column--l-8 column--xl-9 padding--s-1 padding--m-2">
-                            <p class="montserrat">
-                                To achieve the goal of making the web a better place I trust in teamwork, latest technology and intuition.
-                            </p>
+                        <div class="column--xl-4 column--m-6 column--s-12">
+                            GIT
                         </div>
                     </div>
-                </div><!-- row -->
+                    <div class="row padding--l-1">
+                        <div class="column--xl-4 column--m-6 column--s-12">
+                            CSS3
+                        </div>
+                        <div class="column--xl-4 column--s-6 column--s-12">
+                            Responsive
+                        </div>
+                        <div class="column--xl-4 column--m-6 column--s-12">
+                            PHP
+                        </div>
+                    </div>
+                    <div class="row padding--l-1">
+                        <div class="column--xl-4 column--m-6 column--s-12">
+                            jQuery
+                        </div>
+                        <div class="column--xl-4 column--s-6 column--s-12">
+                            Hand-coding
+                        </div>
+                        <div class="column--xl-4 column--m-6 column--s-12">
+                            SEO
+                        </div>
+                    </div>
+                <div class="row padding--vertical--m-2 padding--vertical--s-1">
+                    <h4>Designer tools</h4>
+                    <ul class="lists tools">
+                        <li><img src="./images/sections/icon-ps.png" alt="Photoshop Icon"><span>Photoshop</span></li>
+                        <li><img src="./images/sections/icon-nb.png" alt="Netbeans IDE Icon"><span>Netbeans IDE</span></li>
+                        <li><img src="./images/sections/icon-c5.png" alt="Concrete5 Icon"><span>Concrete5</span></li>
+                        <li><img src="./images/sections/icon-ai.png" alt="Illustrator Icon"><span>Illustrator</span></li>
+                        <li><img src="./images/sections/icon-st.png" alt="Sublime Text 3 Icon"><span>Sublime Text 3</span></li>
+                        <li><img src="./images/sections/icon-an.png" alt="Analytics Icon"><span>Analytics</span></li>
+                        <li><img src="./images/sections/icon-dw.png" alt="Dreamweaver Icon"><span>Dreamweaver</span></li>
+                        <li><img src="./images/sections/icon-wp.png" alt="Wordpress Icon"><span>Wordpress</span></li>
+                        <li><img src="./images/sections/icon-of.png" alt="Office 365 Icon"><span>Office 365</span></li>
+                    </ul>
+                </div>
+                <div class="row padding--vertical--m-2 padding--vertical--s-1">
+                    <h4>Additional assets</h4>
+                    <ul class="lists checks">
+                        <li>Bootstrap</li>
+                        <li>Team Managment</li>
+                        <li>Accessibility</li>
+                        <li>Git Repositories</li>
+                        <li>Project Managment</li>
+                        <li>Linguistics</li>
+                        <li>Sass</li>
+                        <li>Video Production</li>
+                        <li>Etiquette</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div><!-- chapter__content --> 
