@@ -1,73 +1,74 @@
 </div><!-- site-main fullpage -->
         
-        <footer class="site-footer background-color--dark-grey">
-            
-            <div class="cd-background-wrapper">
-                <figure class="cd-floating-background">
-                    <img src="./images/footer/behind-all.png" alt="image-1">
-                    <img src="./images/footer/mini-ramp.png" alt="image-2">
-                    <img src="./images/footer/bench.png" alt="image-3">
-                </figure>
-            </div>
-            
-            <section id="slidebox--webdesign-elements" class="fullpage-section block anime--box" style="height: 1300px;">
-                
+    <footer class="site-footer background-color--dark-grey">
+
+        <div class="cd-background-wrapper">
+            <figure class="cd-floating-background">
+                <img src="./images/footer/behind-all.png" alt="image-1">
+                <img src="./images/footer/mini-ramp.png" alt="image-2">
+                <img src="./images/footer/bench.png" alt="image-3">
+            </figure>
+        </div>
+
+        <section id="slidebox--webdesign-elements" class="fullpage-section block anime--box" style="height: 1300px;">
+
 <!--                <ul class="anime">
-                    <li class="sk8er1"
-                          data-start="left: -200px; top: 10px; opacity: 0"
-                      data-7500-start="left: -200px; top: 10px; opacity: 0"
-                      data-7600-start="left: 1px; top: 10px; opacity: 1"
-                      data-7600-start="left: 1px; top: 10px; opacity: 0"
-                      data-7700-start="left: 112px; top: 10px; opacity: 0"></li>
-                    <li class="sk8er2"
-                          data-start="left: 112px; top: 10px; opacity: 0"
-                      data-7600-start="left: 112px; top: 10px; opacity: 0"
-                      data-7700-start="left: 130px; top: 10px; opacity: 1"
-                      data-7700-start="left: 130px; top: 10px; opacity: 0"
-                      data-7800-start="left: 270px; top: 10px; opacity: 0"></li>
-                    <li class="sk8er3"
-                          data-start="left: 130px; top: 10px; opacity: 0"
-                      data-7700-start="left: 130px; top: 10px; opacity: 0"
-                      data-7800-start="left: 270px; top: 10px; opacity: 1"
-                      data-7800-start="left: 270px; top: 10px; opacity: 0"
-                      data-7900-start="left: 410px; top: 10px; opacity: 0"></li>
-                    <li class="sk8er4"
-                          data-start="left: 270px; top: 10px; opacity: 0"
-                      data-7800-start="left: 270px; top: 10px; opacity: 0"
-                      data-7900-start="left: 410px; top: 10px; opacity: 1"
-                      data-7900-start="left: 410px; top: 10px; opacity: 0"
-                      data-8000-start="left: 560px; top: 10px; opacity: 0"></li>
-                    <li class="sk8er5"
-                          data-start="left: 410px; top: 10px; opacity: 0"
-                      data-7900-start="left: 410px; top: 10px; opacity: 0"
-                      data-8000-start="left: 560px; top: 10px; opacity: 1"
-                      data-8000-start="left: 560px; top: 10px; opacity: 0"
-                      data-8100-start="left: 660px; top: 10px; opacity: 0"></li>
-                    <li class="sk8er6"
-                          data-start="left: 560px; top: 10px; opacity: 0"
-                      data-8000-start="left: 560px; top: 10px; opacity: 0"
-                      data-8100-start="left: 660px; top: 10px; opacity: 1"
-                      data-8100-start="left: 660px; top: 10px; opacity: 0"
-                      data-8200-start="left: 780px; top: 10px; opacity: 0"></li>
-                    <li class="sk8er7"
-                          data-start="left: 560px; top: 10px; opacity: 0"
-                      data-8100-start="left: 560px; top: 10px; opacity: 0"
-                      data-8300-start="left: 780px; top: 10px; opacity: 1"
-                      data-8300-start="left: 780px; top: 10px; opacity: 0"
-                      data-8400-start="left: 920px; top: 10px; opacity: 0"></li>
-                    <li class="sk8er8"
-                          data-start="left: 780px; top: 10px; opacity: 0"
-                      data-8300-start="left: 780px; top: 10px; opacity: 0"
-                      data-8400-start="left: 920px; top: 10px; opacity: 1"
-                      data-8400-start="left: 920px; top: 10px; opacity: 0"
-                      data-8500-start="left: 2000px; top: 10px; opacity: 0"></li>
-                  </ul>-->
-                
-            </section><!-- fullpage-section -->
-                      
-            <section class="fullpage-section block block--hero" data-viewport-height="100">
-                <div class="block__content vertical-align-helper text-align--s-center">                    
-                    <div class="vertical-align--s-middle text-color--white">
+                <li class="sk8er1"
+                      data-start="left: -200px; top: 10px; opacity: 0"
+                  data-7500-start="left: -200px; top: 10px; opacity: 0"
+                  data-7600-start="left: 1px; top: 10px; opacity: 1"
+                  data-7600-start="left: 1px; top: 10px; opacity: 0"
+                  data-7700-start="left: 112px; top: 10px; opacity: 0"></li>
+                <li class="sk8er2"
+                      data-start="left: 112px; top: 10px; opacity: 0"
+                  data-7600-start="left: 112px; top: 10px; opacity: 0"
+                  data-7700-start="left: 130px; top: 10px; opacity: 1"
+                  data-7700-start="left: 130px; top: 10px; opacity: 0"
+                  data-7800-start="left: 270px; top: 10px; opacity: 0"></li>
+                <li class="sk8er3"
+                      data-start="left: 130px; top: 10px; opacity: 0"
+                  data-7700-start="left: 130px; top: 10px; opacity: 0"
+                  data-7800-start="left: 270px; top: 10px; opacity: 1"
+                  data-7800-start="left: 270px; top: 10px; opacity: 0"
+                  data-7900-start="left: 410px; top: 10px; opacity: 0"></li>
+                <li class="sk8er4"
+                      data-start="left: 270px; top: 10px; opacity: 0"
+                  data-7800-start="left: 270px; top: 10px; opacity: 0"
+                  data-7900-start="left: 410px; top: 10px; opacity: 1"
+                  data-7900-start="left: 410px; top: 10px; opacity: 0"
+                  data-8000-start="left: 560px; top: 10px; opacity: 0"></li>
+                <li class="sk8er5"
+                      data-start="left: 410px; top: 10px; opacity: 0"
+                  data-7900-start="left: 410px; top: 10px; opacity: 0"
+                  data-8000-start="left: 560px; top: 10px; opacity: 1"
+                  data-8000-start="left: 560px; top: 10px; opacity: 0"
+                  data-8100-start="left: 660px; top: 10px; opacity: 0"></li>
+                <li class="sk8er6"
+                      data-start="left: 560px; top: 10px; opacity: 0"
+                  data-8000-start="left: 560px; top: 10px; opacity: 0"
+                  data-8100-start="left: 660px; top: 10px; opacity: 1"
+                  data-8100-start="left: 660px; top: 10px; opacity: 0"
+                  data-8200-start="left: 780px; top: 10px; opacity: 0"></li>
+                <li class="sk8er7"
+                      data-start="left: 560px; top: 10px; opacity: 0"
+                  data-8100-start="left: 560px; top: 10px; opacity: 0"
+                  data-8300-start="left: 780px; top: 10px; opacity: 1"
+                  data-8300-start="left: 780px; top: 10px; opacity: 0"
+                  data-8400-start="left: 920px; top: 10px; opacity: 0"></li>
+                <li class="sk8er8"
+                      data-start="left: 780px; top: 10px; opacity: 0"
+                  data-8300-start="left: 780px; top: 10px; opacity: 0"
+                  data-8400-start="left: 920px; top: 10px; opacity: 1"
+                  data-8400-start="left: 920px; top: 10px; opacity: 0"
+                  data-8500-start="left: 2000px; top: 10px; opacity: 0"></li>
+              </ul>-->
+
+        </section><!-- fullpage-section -->
+
+        <section class="fullpage-section block" data-viewport-min-height="100">
+            <div class="block__content text-align--s-center">
+                <div class="chapter__content">
+                    <div class="text-color--white">
                         <h2 class="text-color--yellow subtitled uppercase">
                         Get social with pete
                         <span class="text-color--white">I’m everywhere simply cos I love what I do<br>Geek isn’t just work</span>
@@ -89,16 +90,16 @@
                             <a class="button--ghost cv" target="_blank" href="./images/footer/Pete_Karski_CV.pdf">Download my CV.pdf</a>
                         </div>
                     </div>
+                </div><!-- chapter__content --> 
+            </div>
+            <nav class="main-nav text-color--white text-align--s-center">
+                <div class="hidden--s hidden--m">
+                    <?php include 'elements/nav.php'; ?>
                 </div>
-
-                <nav class="main-nav text-color--white text-align--s-center">
-                    <div class="hidden--s hidden--m">
-                        <?php include 'elements/nav.php'; ?>
-                    </div>
-                    <p class="text-size-small">&copy; <?php echo date('Y')?> &nbsp; www.karski.nz</p>
-                </nav>
-            </section><!-- fullpage-section -->
-        </footer>
+                <p class="text-size-small">&copy; <?php echo date('Y')?> &nbsp; www.karski.nz</p>
+            </nav>
+        </section><!-- fullpage-section -->
+    </footer>
 
         </div><!-- site-wrapper -->
             <div class="overlay overlay--imprint vertical-align-helper text-align--s-center background-color--white" data-overlay="easter-egg">

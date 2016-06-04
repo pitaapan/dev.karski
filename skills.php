@@ -14,7 +14,7 @@
     </div><!-- chapter__title -->
     <div class="chapter__content">
         <div class="row padding--s-2 padding--m-4 padding--xl-5">
-            <div class="column--s-12 padding--s-1 padding--m-0">
+            <div class="column--s-12 padding--s-1">
                 <h3 class="montserrat">Key Skills</h3>
                 <p>
                     I am a Front End Developer and Designer with over 5 years commercial experience. Loving what I do, it becomes so easy to acquire new skills and keep on advancing. For what it's worth I am always thirsty for more. Find a snapshot of my talents below please.

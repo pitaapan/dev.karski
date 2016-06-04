@@ -15,8 +15,8 @@
         </div>
     </div><!-- chapter__title -->
     <div class="chapter__content">
-        <div class="row padding--s-2 padding--m-4 padding--xl-8">
-            <div class="column--s-12 padding--s-1 padding--m-2">
+        <div class="row padding--s-2 padding--m-4 padding--xl-5">
+            <div class="column--s-12 padding--s-1">
                 <h3 class="montserrat">Kia Ora, I’m Pete</h3>
                 <h4>Let’s make friends before you hire me</h4>
                 <p>
