@@ -13,46 +13,125 @@
         </nav>
     </div><!-- chapter__title -->
     <div class="chapter__content">
-        <div class="row padding--s-2 padding--m-4 padding--xl-5">
+        <div class="row padding--s-2 padding--m-4 padding--horizontal--xl-5 padding--vertical--xl-8">
             <div class="column--s-12 padding--s-1">
                 <h3 class="montserrat">Key Skills</h3>
                 <p>
                     I am a Front End Developer and Designer with over 5 years commercial experience. Loving what I do, it becomes so easy to acquire new skills and keep on advancing. For what it's worth I am always thirsty for more. Find a snapshot of my talents below please.
                 </p>
-                    <h4>Developer skills</h4>
-                    <div class="row padding--l-1">
-                        <div class="column--xl-4 column--m-6 column--s-12">
-                            HTML5 
-                        </div>
-                        <div class="column--xl-4 column--s-6 column--s-12">
-                            Cross-browser
-                        </div>
-                        <div class="column--xl-4 column--m-6 column--s-12">
-                            GIT
-                        </div>
-                    </div>
-                    <div class="row padding--l-1">
-                        <div class="column--xl-4 column--m-6 column--s-12">
-                            CSS3
-                        </div>
-                        <div class="column--xl-4 column--s-6 column--s-12">
-                            Responsive
-                        </div>
-                        <div class="column--xl-4 column--m-6 column--s-12">
-                            PHP
-                        </div>
-                    </div>
-                    <div class="row padding--l-1">
-                        <div class="column--xl-4 column--m-6 column--s-12">
-                            jQuery
-                        </div>
-                        <div class="column--xl-4 column--s-6 column--s-12">
-                            Hand-coding
-                        </div>
-                        <div class="column--xl-4 column--m-6 column--s-12">
-                            SEO
-                        </div>
-                    </div>
+                <h4>Developer skills</h4>
+                <div class="row padding--vertical--m-2 padding--vertical--s-1">
+                    <ul class="lists">
+                        <li>
+                            <span class="button--hexagon skillz">
+                                <span class="slice fill"></span>
+                                <span class="slice fill"></span>
+                                <span class="slice fill"></span>
+                                <span class="slice fill"></span>
+                                <span class="slice fill"></span>
+                                <span class="slice fill"></span>
+                                <span class="button__label text-color--white">95%</span>
+                            </span>
+                            <span class="tag">HTML5</span> 
+                        </li>
+                        <li>
+                            <span class="button--hexagon skillz">
+                                <span class="slice fill"></span>
+                                <span class="slice fill"></span>
+                                <span class="slice fill"></span>
+                                <span class="slice fill"></span>
+                                <span class="slice fill"></span>
+                                <span class="slice fill"></span>
+                                <span class="button__label text-color--white">95%</span>
+                            </span>
+                            <span class="tag">CSS3</span>
+                        </li>
+                        <li>
+                            <span class="button--hexagon skillz">
+                                <span class="slice fill"></span>
+                                <span class="slice fill"></span>
+                                <span class="slice fill"></span>
+                                <span class="slice fill"></span>
+                                <span class="slice fill"></span>
+                                <span class="slice fill"></span>
+                                <span class="button__label text-color--white">99%</span>
+                            </span>
+                            <span class="tag">Responsive</span>
+                        </li>
+                        <li>
+                            <span class="button--hexagon skillz">
+                                <span class="slice fill"></span>
+                                <span class="slice fill"></span>
+                                <span class="slice fill"></span>
+                                <span class="slice fill"></span>
+                                <span class="slice"></span>
+                                <span class="slice fill"></span>
+                                <span class="button__label text-color--white">80%</span>
+                            </span>
+                            <span class="tag">Hand-coding</span>
+                        </li>
+                        <li>
+                            <span class="button--hexagon skillz">
+                                <span class="slice fill"></span>
+                                <span class="slice fill"></span>
+                                <span class="slice fill"></span>
+                                <span class="slice fill"></span>
+                                <span class="slice"></span>
+                                <span class="slice fill"></span>
+                                <span class="button__label text-color--white">70%</span>
+                            </span>
+                            <span class="tag">Cross-browser</span>
+                        </li>
+                        <li>
+                            <span class="button--hexagon skillz">
+                                <span class="slice fill"></span>
+                                <span class="slice fill"></span>
+                                <span class="slice fill"></span>
+                                <span class="slice"></span>
+                                <span class="slice"></span>
+                                <span class="slice fill"></span>
+                                <span class="button__label text-color--white">65%</span>
+                            </span>
+                            <span class="tag">GIT</span>
+                        </li>
+                        <li>
+                            <span class="button--hexagon skillz">
+                                <span class="slice fill"></span>
+                                <span class="slice fill"></span>
+                                <span class="slice"></span>
+                                <span class="slice"></span>
+                                <span class="slice"></span>
+                                <span class="slice fill"></span>
+                                <span class="button__label text-color--white">35%</span>
+                            </span>
+                            <span class="tag">jQuery</span>
+                        </li>
+                        <li>
+                            <span class="button--hexagon skillz">
+                                <span class="slice fill"></span>
+                                <span class="slice"></span>
+                                <span class="slice"></span>
+                                <span class="slice"></span>
+                                <span class="slice"></span>
+                                <span class="slice fill"></span>
+                                <span class="button__label text-color--white">20%</span>
+                            </span>
+                            <span class="tag">PHP</span>
+                        </li>
+                        <li>
+                            <span class="button--hexagon skillz">
+                                <span class="slice fill"></span>
+                                <span class="slice fill"></span>
+                                <span class="slice"></span>
+                                <span class="slice"></span>
+                                <span class="slice"></span>
+                                <span class="slice fill"></span>
+                                <span class="button__label text-color--white">40%</span>
+                            </span>
+                            <span class="tag">SEO</span>
+                        </li>
+                    </ul>
+                </div>
                 <div class="row padding--vertical--m-2 padding--vertical--s-1">
                     <h4>Designer tools</h4>
                     <ul class="lists tools">

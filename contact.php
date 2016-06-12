@@ -1,9 +1,3 @@
-
-
-
-
-
-
 <section data-id="contact" class="fullpage-section block block--contact chapter" data-viewport-min-height="100">
     <div class="chapter__title">
 
@@ -22,50 +16,30 @@
 
     </div><!-- chapter__title -->
     
-    
-    
     <div class="chapter__content" data-viewport-min-height="100" style="background: url(./images/sections/typewriter.svg) #FFC170; background-size: cover;">
-    <div class="row padding--s-2 padding--m-4" style="transform: rotateX(5deg) rotateY(-5deg) rotateZ(5deg);">
-        <div class="column--s-12 padding--s-1 padding--m-2">
-        <p>
-        <strong>
-        If you want to collaborate on crafting amazing experience for people – you are very welcome to contact me. 
-        </strong>
-        </p>
+        <div class="row padding--s-2 padding--m-4" style="transform: rotateX(5deg) rotateY(-5deg) rotateZ(5deg);">
+            <div class="column--s-12 padding--s-1 padding--m-2">
+                <pre>
+                <h3 class="montserrat">Get in touch</h3>
+                <br><br>
+                              Dear Pete,
+                              My name is ......... you can email me back at
+                              ............... or call me on ...............
+                              I would like to .............................
+                                              .............................
+                </pre>
+                <a class="button--ghost cv">SUBMIT</a> 
 
-        <!-- Contact Form -->
-        
-        <!--/ Contact Form -->
+            <!-- Contact Form -->
 
-        <h5 class="">Melanie Daveid</h5>
-        <p>
-        UX Design & Art Direction <br>
-        <a href="mailto:hello@melaniedaveid.com">hello@melaniedaveid.com</a><br>
-        </p>
-        <p>&nbsp;</p>
-        <nav class="social-nav">
-        
-        </nav>
-        <p>
-        <strong>
-        If you want to collaborate on crafting amazing experience for people – you are very welcome to contact me. 
-        </strong>
-        </p>
+            <!--/ Contact Form -->
 
-        <h5 class="">Melanie Daveid</h5>
-        <p>
-        UX Design & Art Direction <br>
-        <a href="mailto:hello@melaniedaveid.com">hello@melaniedaveid.com</a><br>
-        </p>
-        <p>&nbsp;</p>
-        <nav class="social-nav">
-
-        </nav>
-    </div>
-    <div class="imprint column--s-12 padding--s-3 padding--m-6">
-    <a href="#" data-overlay="easter-egg" class="button--imprint subtitled button button--default button--narrow button--rounded uppercase button--black-to-red"><span class="button__label">Easter Egg</span></a>
-
-    </div>
-    </div>
-    </div>
+            </div>
+            <div class="imprint column--s-12 padding--s-3 padding--m-6">
+                <a href="#" data-overlay="easter-egg" class="button--imprint subtitled button button--default button--narrow button--rounded uppercase button--black-to-red">
+                    <span class="button__label">Easter Egg</span>
+                </a>
+            </div>
+        </div>
+    </div><!-- chapter__content -->
 </section><!-- Block Contact -->

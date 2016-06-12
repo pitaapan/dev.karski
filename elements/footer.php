@@ -12,7 +12,13 @@
 
         <section id="slidebox--webdesign-elements" class="fullpage-section block anime--box" style="height: 1300px;">
 
-<!--                <ul class="anime">
+            <!--            
+            
+            MAYBE DO THIS WITH KEY FRAMES AND WAYPOINTS AND OFFSET !!!            
+            
+            -->
+            
+            <ul class="anime">
                 <li class="sk8er1"
                       data-start="left: -200px; top: 10px; opacity: 0"
                   data-7500-start="left: -200px; top: 10px; opacity: 0"
@@ -61,7 +67,7 @@
                   data-8400-start="left: 920px; top: 10px; opacity: 1"
                   data-8400-start="left: 920px; top: 10px; opacity: 0"
                   data-8500-start="left: 2000px; top: 10px; opacity: 0"></li>
-              </ul>-->
+            </ul>
 
         </section><!-- fullpage-section -->
 
@@ -154,6 +160,23 @@
         </div>
         
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    
+    <script type="text/javascript" src="./js/jquery.waypoints.min.js"></script>
+    
+    <script>
+    
+        var $dipper = $('.slice.fill');
+
+        $dipper.waypoint(function (direction) {
+            if (direction == 'down') {
+            $dipper.addClass('fill-green');
+        } else {
+            $dipper.removeClass('fill-green');
+        }
+        }, {offset: '50%' });
+    
+    </script>
+
     <script type="text/javascript" src="./js/parallax-hero-img.js"></script>
     
     <!-- Core Scripts -->

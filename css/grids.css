@@ -21,7 +21,7 @@ img{border:0}
 svg:not(:root){overflow:hidden}
 hr{box-sizing:content-box;height:0}
 pre{overflow:auto}
-code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}
+code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em; letter-spacing: -0.05em;}
 button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}
 button{overflow:visible}
 button,select{text-transform:none}
@@ -966,7 +966,7 @@ nav>ol li,nav>ul li{margin:0;padding:0}
     ul.checks li {padding: 5px 0 5px 30px; background: url("../images/sections/check.png") 0 50% no-repeat; list-style: none;}
     ul.checks.lite li {background-image: url("../images/sections/check-lite.png");}
     ul.tools li img {float: left; margin: 10px 10px 10px 0;}
-    ul.tools li span {position: relative; top: 31px;}
+    ul.tools li span {position: relative; top: 38px;}
 
 }
 @media (min-width:768px) {
