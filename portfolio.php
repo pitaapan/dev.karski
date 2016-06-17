@@ -42,8 +42,8 @@
                             <div class="header__image" style="background-image: url(./images/portfolio/cover-prestige.jpg);"></div>
                             <div class="header__content vertical-align--s-middle">
                                 <div class="title-bg">
-                                    <h3 class="header__title subtitled text-color--white uppercase">Prestige Diesels</h3>
-                                    <h6 class="header__subtitle text-color--white ubuntu uppercase">Car Dealer Website</h6>
+                                    <h3 class="header__title subtitled text-color--white uppercase">Automotive Agency</h3>
+                                    <h6 class="header__subtitle text-color--white ubuntu uppercase">Car Dealer Websites</h6>
                                 </div>
                                 <span class="header__cta button--hexagon">
                                     <span class="slice"></span>
