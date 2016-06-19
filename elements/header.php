@@ -11,6 +11,9 @@
     <meta name="description" content="Pete Karski - Front End Developer"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0"/>
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" >
+    <meta name="theme-color" content="#473C39">
+    <meta name="msapplication-navbutton-color" content="#473C39">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#473C39">
 
     <!-- SCRIPTS -->
     <script type="text/javascript" src="./js/respond.min.js"></script>

@@ -27,7 +27,7 @@
                         <img src="./images/portfolio/tablet-karski.jpg" alt="Tablet Screen Karski">
                     </div>
                     <div class="column--s-12 column--m-4 padding--vertical--s-2 padding--vertical--m-4">
-                        <img src="./images/portfolio/mobile-karski.jpg" alt="Mobile Screen Karski" class="fl-right">
+                        <img src="./images/portfolio/mobile-karski.jpg" alt="Mobile Screen Karski" class="fl-right xsl">
                     </div>
                 </div>
             </div><!-- row -->

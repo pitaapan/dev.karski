@@ -10,7 +10,7 @@
             </div>
         </div>
 
-        <nav class="main-nav text-color--grey-dark hidden--s hidden--m">
+        <nav class="main-nav text-color--white hidden--s hidden--m">
             <?php include 'elements/nav.php'; ?>
         </nav>
 

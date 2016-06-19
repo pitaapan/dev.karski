@@ -8,69 +8,17 @@
                 <img src="./images/footer/mini-ramp.png" alt="image-2">
                 <img src="./images/footer/bench.png" alt="image-3">
             </figure>
-        </div>
-
-        <section id="slidebox--webdesign-elements" class="fullpage-section block anime--box" style="height: 1300px;">
-
-            <!--            
-            
-            MAYBE DO THIS WITH KEY FRAMES AND WAYPOINTS AND OFFSET !!!            
-            
-            -->
-            
             <ul class="anime">
-                <li class="sk8er1"
-                      data-start="left: -200px; top: 10px; opacity: 0"
-                  data-7500-start="left: -200px; top: 10px; opacity: 0"
-                  data-7600-start="left: 1px; top: 10px; opacity: 1"
-                  data-7600-start="left: 1px; top: 10px; opacity: 0"
-                  data-7700-start="left: 112px; top: 10px; opacity: 0"></li>
-                <li class="sk8er2"
-                      data-start="left: 112px; top: 10px; opacity: 0"
-                  data-7600-start="left: 112px; top: 10px; opacity: 0"
-                  data-7700-start="left: 130px; top: 10px; opacity: 1"
-                  data-7700-start="left: 130px; top: 10px; opacity: 0"
-                  data-7800-start="left: 270px; top: 10px; opacity: 0"></li>
-                <li class="sk8er3"
-                      data-start="left: 130px; top: 10px; opacity: 0"
-                  data-7700-start="left: 130px; top: 10px; opacity: 0"
-                  data-7800-start="left: 270px; top: 10px; opacity: 1"
-                  data-7800-start="left: 270px; top: 10px; opacity: 0"
-                  data-7900-start="left: 410px; top: 10px; opacity: 0"></li>
-                <li class="sk8er4"
-                      data-start="left: 270px; top: 10px; opacity: 0"
-                  data-7800-start="left: 270px; top: 10px; opacity: 0"
-                  data-7900-start="left: 410px; top: 10px; opacity: 1"
-                  data-7900-start="left: 410px; top: 10px; opacity: 0"
-                  data-8000-start="left: 560px; top: 10px; opacity: 0"></li>
-                <li class="sk8er5"
-                      data-start="left: 410px; top: 10px; opacity: 0"
-                  data-7900-start="left: 410px; top: 10px; opacity: 0"
-                  data-8000-start="left: 560px; top: 10px; opacity: 1"
-                  data-8000-start="left: 560px; top: 10px; opacity: 0"
-                  data-8100-start="left: 660px; top: 10px; opacity: 0"></li>
-                <li class="sk8er6"
-                      data-start="left: 560px; top: 10px; opacity: 0"
-                  data-8000-start="left: 560px; top: 10px; opacity: 0"
-                  data-8100-start="left: 660px; top: 10px; opacity: 1"
-                  data-8100-start="left: 660px; top: 10px; opacity: 0"
-                  data-8200-start="left: 780px; top: 10px; opacity: 0"></li>
-                <li class="sk8er7"
-                      data-start="left: 560px; top: 10px; opacity: 0"
-                  data-8100-start="left: 560px; top: 10px; opacity: 0"
-                  data-8300-start="left: 780px; top: 10px; opacity: 1"
-                  data-8300-start="left: 780px; top: 10px; opacity: 0"
-                  data-8400-start="left: 920px; top: 10px; opacity: 0"></li>
-                <li class="sk8er8"
-                      data-start="left: 780px; top: 10px; opacity: 0"
-                  data-8300-start="left: 780px; top: 10px; opacity: 0"
-                  data-8400-start="left: 920px; top: 10px; opacity: 1"
-                  data-8400-start="left: 920px; top: 10px; opacity: 0"
-                  data-8500-start="left: 2000px; top: 10px; opacity: 0"></li>
+                <li class="sk8er1"></li>
+                <li class="sk8er2"></li>
+                <li class="sk8er3"></li>
+                <li class="sk8er4"></li>
+                <li class="sk8er5"></li>
+                <li class="sk8er6"></li>
+                <li class="sk8er7"></li>
+                <li class="sk8er8"></li>
             </ul>
-
-        </section><!-- fullpage-section -->
-
+        </div>
         <section class="fullpage-section block" data-viewport-min-height="100">
             <div class="block__content text-align--s-center">
                 <div class="chapter__content">
@@ -163,17 +111,45 @@
     
     <script type="text/javascript" src="./js/jquery.waypoints.min.js"></script>
     
-    <script>
+    <script type="text/javascript">
     
-        var $dipper = $('.slice.fill');
-
-        $dipper.waypoint(function (direction) {
+        var $sliceFill = $('.slice.fill');
+        $sliceFill.waypoint(function (direction) {
             if (direction == 'down') {
-            $dipper.addClass('fill-green');
+            $sliceFill.addClass('fill-green');
         } else {
-            $dipper.removeClass('fill-green');
+            $sliceFill.removeClass('fill-green');
         }
         }, {offset: '50%' });
+        
+        var $slideINS = $('.slide-in1, .slide-in2');
+        $slideINS.waypoint(function (direction) {
+            if (direction == 'down') {
+            $slideINS.addClass('slide-in-done');
+        } else {
+            $slideINS.removeClass('slide-in-done');
+        }
+        }, {offset: '75%' });
+    
+        var $sk8erZ = $('.cd-background-wrapper');
+            var $sk8er1 = $('.sk8er1');
+            $sk8erZ.waypoint(function (direction) {
+                if (direction == 'down') {
+                    $sk8er1.addClass('see-me');
+                } else {
+                    $sk8er1.removeClass('see-me');
+                }
+            }, {offset: '65%' });
+            
+            var $sk8er1 = $('.sk8er2');
+            $sk8erZ.waypoint(function (direction) {
+                if (direction == 'down') {
+                    $sk8er1.addClass('see-me');
+                }
+                if (direction == 'up') {
+                    $sk8er1.removeClass('see-me');
+                }
+                }, { offset: '50%' });
     
     </script>
 
@@ -185,12 +161,12 @@
     <script type="text/javascript" src="./js/scripts.min.js"></script>
     
     <!-- SK8ER -->
-    <script type="text/javascript" src="./js/skrollr.min.js"></script>
+<!--    <script type="text/javascript" src="./js/skrollr.min.js"></script>
     <script type="text/javascript">
         skrollr.init({
               forceHeight: false
             });
-    </script>        
+    </script>        -->
         
         <!-- Avatar Pete -->
         <script type="text/javascript">

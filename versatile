@@ -27,7 +27,7 @@
                         <img src="./images/portfolio/tablet-docusave.jpg" alt="Tablet Screen Docusave">
                     </div>
                     <div class="column--s-12 column--m-4 padding--vertical--s-2 padding--vertical--m-4">
-                        <img src="./images/portfolio/mobile-docusave.jpg" alt="Mobile Screen Docusave" class="fl-right">
+                        <img src="./images/portfolio/mobile-docusave.jpg" alt="Mobile Screen Docusave" class="fl-right xsl">
                     </div>
                 </div>
             </div><!-- row -->
