@@ -686,7 +686,7 @@ Main Components
 }
 .cd-floating-background img:not(:first-child) {
   position: absolute;
-  top: 0;
+  top: 80px;
   left: 0;
 }
 .no-touch .cd-floating-background {
@@ -741,12 +741,10 @@ Main Components
 
 
 
-.anime li {display: block; position: absolute; opacity: 0;}
-.anime li.see-me {opacity: 1;}
+.anime li {display: block; position: absolute;}
 
-/*SK8ER*/	
+/*SK8ERZ*/	
 .sk8er1 {width: 112px; height: 360px; background: transparent url(../images/footer/sk8er1.png) 0 0 no-repeat; z-index: 8; left: 6%;}
-.sk8er1.see-me {left: 10%;}
 .sk8er2 {width: 112px; height: 360px; background: transparent url(../images/footer/sk8er2.png) 0 0 no-repeat; z-index: 8; left: 18%;}
 .sk8er3 {width: 140px; height: 360px; background: transparent url(../images/footer/sk8er3.png) 0 0 no-repeat; z-index: 8; left: 25%;}
 .sk8er4 {width: 130px; height: 360px; background: transparent url(../images/footer/sk8er4.png) 0 0 no-repeat; z-index: 8; left: 33%;}

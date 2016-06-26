@@ -24,6 +24,7 @@
     <!-- CSS -->
     <link type="text/css" rel="stylesheet" href="./css/grids.css" />
     <link type="text/css" rel="stylesheet" href="./css/styles.css" />
+    <link type="text/css" rel="stylesheet" href="./css/animate.min.css" />
     <!-- Google Analytics -->
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

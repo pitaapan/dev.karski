@@ -9,42 +9,48 @@
                 <img src="./images/footer/bench.png" alt="image-3">
             </figure>
             <ul class="anime">
-                <li class="sk8er1"></li>
-                <li class="sk8er2"></li>
-                <li class="sk8er3"></li>
-                <li class="sk8er4"></li>
-                <li class="sk8er5"></li>
-                <li class="sk8er6"></li>
-                <li class="sk8er7"></li>
-                <li class="sk8er8"></li>
+                <li class="sk8er1 animated"></li>
+                <li class="sk8er2 animated"></li>
+                <li class="sk8er3 animated"></li>
+                <li class="sk8er4 animated"></li>
+                <li class="sk8er5 animated"></li>
+                <li class="sk8er6 animated"></li>
+                <li class="sk8er7 animated"></li>
+                <li class="sk8er8 animated"></li>
             </ul>
+            
+            <div id="element-to-animate" class="animated">
+            </div>
+            
         </div>
         <section class="fullpage-section block" data-viewport-min-height="100">
-            <div class="block__content text-align--s-center">
-                <div class="chapter__content">
-                    <div class="text-color--white">
-                        <h2 class="text-color--yellow subtitled uppercase">
-                        Get social with pete
-                        <span class="text-color--white">I’m everywhere simply cos I love what I do<br>Geek isn’t just work</span>
-                        </h2>
-                        <nav>
-                            <ul class="social-nav montserrat text-color--white text-size-small">
-                                <li><a target="_blank" href="https://plus.google.com/u/0/+PiotrKarski"><img src="./images/footer/ft-gp.png" alt="Google+"><span>Google+</span></a></li>
-                                <li><a target="_blank" href="https://www.facebook.com/pitaapan"><img src="./images/footer/ft-fb.png" alt="Google+"><span>Facebook</span></a></li>
-                                <li><a target="_blank" href="https://twitter.com/NoweMEble"><img src="./images/footer/ft-tw.png" alt="Google+"><span>Twitter</span></a></li>
-                                <li><a target="_blank" href="https://www.linkedin.com/in/petekarski"><img src="./images/footer/ft-in.png" alt="Google+"><span>LinkedIn</span></a></li>
+            <div class="vertical-align-helper text-align--s-center" data-viewport-height="100">
+                <div class="vertical-align--s-middle">
+                    <div class="chapter__content">
+                        <div class="text-color--white">
+                            <h2 class="text-color--yellow subtitled uppercase">
+                            Get social with pete
+                            <span class="text-color--white">I’m everywhere simply cos I love what I do<br>Geek isn’t just work</span>
+                            </h2>
+                            <nav>
+                                <ul class="social-nav montserrat text-color--white text-size-small">
+                                    <li><a target="_blank" href="https://plus.google.com/u/0/+PiotrKarski"><img src="./images/footer/ft-gp.png" alt="Google+"><span>Google+</span></a></li>
+                                    <li><a target="_blank" href="https://www.facebook.com/pitaapan"><img src="./images/footer/ft-fb.png" alt="Google+"><span>Facebook</span></a></li>
+                                    <li><a target="_blank" href="https://twitter.com/NoweMEble"><img src="./images/footer/ft-tw.png" alt="Google+"><span>Twitter</span></a></li>
+                                    <li><a target="_blank" href="https://www.linkedin.com/in/petekarski"><img src="./images/footer/ft-in.png" alt="Google+"><span>LinkedIn</span></a></li>
 
-                                <li><a target="_blank" href="https://www.youtube.com/user/pitaapan"><img src="./images/footer/ft-yt.png" alt="Google+"><span>You Tube</span></a></li>
-                                <li><a target="_blank" href="http://www.last.fm/user/pitaapan"><img src="./images/footer/ft-fm.png" alt="Google+"><span>Last.fm</span></a></li>
-                                <li><a target="_blank" href="https://uk.pinterest.com/pitaapan/life-is-a-game"><img src="./images/footer/ft-pn.png" alt="Google+"><span>Pinterest</span></a></li>
-                                <li><a target="_blank" href="https://teamtreehouse.com/pitaapan"><img src="./images/footer/ft-tr.png" alt="Google+"><span>Treehouse</span></a></li> 
-                            </ul>
-                        </nav>
-                        <div class="clearfix">
-                            <a class="button--ghost cv" target="_blank" href="./images/footer/Pete_Karski_CV.pdf">Download my CV.pdf</a>
+                                    <li><a target="_blank" href="https://www.youtube.com/user/pitaapan"><img src="./images/footer/ft-yt.png" alt="Google+"><span>You Tube</span></a></li>
+                                    <li><a target="_blank" href="http://www.last.fm/user/pitaapan"><img src="./images/footer/ft-fm.png" alt="Google+"><span>Last.fm</span></a></li>
+                                    <li><a target="_blank" href="https://uk.pinterest.com/pitaapan/life-is-a-game"><img src="./images/footer/ft-pn.png" alt="Google+"><span>Pinterest</span></a></li>
+                                    <li><a target="_blank" href="https://teamtreehouse.com/pitaapan"><img src="./images/footer/ft-tr.png" alt="Google+"><span>Treehouse</span></a></li> 
+                                </ul>
+                            </nav>
+                            <div class="clearfix">
+                                <a class="button--ghost cv" target="_blank" href="./images/footer/Pete_Karski_CV.pdf">Download my CV.pdf</a>
+                            </div>
                         </div>
-                    </div>
-                </div><!-- chapter__content --> 
+                    </div><!-- chapter__content --> 
+                </div>
             </div>
             <nav class="main-nav text-color--white text-align--s-center">
                 <div class="hidden--s hidden--m">
@@ -110,9 +116,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     
     <script type="text/javascript" src="./js/jquery.waypoints.min.js"></script>
-    
-    <script type="text/javascript">
-    
+    <script>
+ 
         var $sliceFill = $('.slice.fill');
         $sliceFill.waypoint(function (direction) {
             if (direction == 'down') {
@@ -121,7 +126,7 @@
             $sliceFill.removeClass('fill-green');
         }
         }, {offset: '50%' });
-        
+
         var $slideINS = $('.slide-in1, .slide-in2');
         $slideINS.waypoint(function (direction) {
             if (direction == 'down') {
@@ -130,27 +135,122 @@
             $slideINS.removeClass('slide-in-done');
         }
         }, {offset: '75%' });
-    
-        var $sk8erZ = $('.cd-background-wrapper');
-            var $sk8er1 = $('.sk8er1');
-            $sk8erZ.waypoint(function (direction) {
-                if (direction == 'down') {
-                    $sk8er1.addClass('see-me');
-                } else {
-                    $sk8er1.removeClass('see-me');
-                }
-            }, {offset: '65%' });
-            
-            var $sk8er1 = $('.sk8er2');
-            $sk8erZ.waypoint(function (direction) {
-                if (direction == 'down') {
-                    $sk8er1.addClass('see-me');
-                }
-                if (direction == 'up') {
-                    $sk8er1.removeClass('see-me');
-                }
-                }, { offset: '50%' });
-    
+     
+        // Mee Sk8terZ
+ 
+         var $sk8er1 = $('.sk8er1');
+          $sk8er1.waypoint(function(direction) {
+            if (direction === 'down') {
+              // reveal our content
+              $('.sk8er1').addClass('fadeInLeft').removeClass('fadeOutRight fadeOutLeft');
+            } else if (direction === 'up') {
+              // hide our content
+              $('.sk8er1').addClass('fadeOutLeft').removeClass('fadeInLeft fadeOutRight fadeInRight');
+            }
+          }, { offset: '65%' });
+          
+          var $sk8er2 = $('.sk8er2');
+          $sk8er2.waypoint(function(direction) {
+            if (direction === 'down') {
+              // reveal our content
+              $('.sk8er1').addClass('fadeOutRight').removeClass('fadeInLeft fadeOutLeft');
+              $('.sk8er2').addClass('fadeInLeft').removeClass('fadeOutRight fadeOutLeft');
+            } else if (direction === 'up') {
+              // hide our content
+              $('.sk8er1').addClass('fadeInRight').removeClass('fadeInLeft fadeOutRight');
+              $('.sk8er2').addClass('fadeOutLeft').removeClass('fadeInLeft fadeOutRight fadeInRight');
+            }
+          }, { offset: '55%' });
+          
+          var $sk8er3 = $('.sk8er3');
+          $sk8er3.waypoint(function(direction) {
+            if (direction === 'down') {
+              // reveal our content
+              $('.sk8er2').addClass('fadeOutRight').removeClass('fadeInLeft fadeOutLeft');
+              $('.sk8er3').addClass('fadeInLeft').removeClass('fadeOutRight fadeOutLeft');
+            } else if (direction === 'up') {
+              // hide our content
+              $('.sk8er2').addClass('fadeInRight').removeClass('fadeInLeft fadeOutRight');
+              $('.sk8er3').addClass('fadeOutLeft').removeClass('fadeInLeft fadeOutRight fadeInRight');
+            }
+          }, { offset: '45%' });
+          
+          var $sk8er4 = $('.sk8er4');
+          $sk8er3.waypoint(function(direction) {
+            if (direction === 'down') {
+              // reveal our content
+              $('.sk8er3').addClass('fadeOutRight').removeClass('fadeInLeft fadeOutLeft');
+              $('.sk8er4').addClass('fadeInLeft').removeClass('fadeOutRight fadeOutLeft');
+            } else if (direction === 'up') {
+              // hide our content
+              $('.sk8er3').addClass('fadeInRight').removeClass('fadeInLeft fadeOutRight');
+              $('.sk8er4').addClass('fadeOutLeft').removeClass('fadeInLeft fadeOutRight fadeInRight');
+            }
+          }, { offset: '35%' });
+          
+          var $sk8er5 = $('.sk8er5');
+          $sk8er5.waypoint(function(direction) {
+            if (direction === 'down') {
+              // reveal our content
+              $('.sk8er4').addClass('fadeOutRight').removeClass('fadeInLeft fadeOutLeft');
+              $('.sk8er5').addClass('fadeInLeft').removeClass('fadeOutRight fadeOutLeft');
+            } else if (direction === 'up') {
+              // hide our content
+              $('.sk8er4').addClass('fadeInRight').removeClass('fadeInLeft fadeOutRight');
+              $('.sk8er5').addClass('fadeOutLeft').removeClass('fadeInLeft fadeOutRight fadeInRight');
+            }
+          }, { offset: '25%' });
+          
+          var $sk8er6 = $('.sk8er6');
+          $sk8er6.waypoint(function(direction) {
+            if (direction === 'down') {
+              // reveal our content
+              $('.sk8er5').addClass('fadeOutRight').removeClass('fadeInLeft fadeOutLeft');
+              $('.sk8er6').addClass('fadeInLeft').removeClass('fadeOutRight fadeOutLeft');
+            } else if (direction === 'up') {
+              // hide our content
+              $('.sk8er5').addClass('fadeInRight').removeClass('fadeInLeft fadeOutRight');
+              $('.sk8er6').addClass('fadeOutLeft').removeClass('fadeInLeft fadeOutRight fadeInRight');
+            }
+          }, { offset: '15%' });
+          
+          var $sk8er7 = $('.sk8er7');
+          $sk8er7.waypoint(function(direction) {
+            if (direction === 'down') {
+              // reveal our content
+              $('.sk8er6').addClass('fadeOutRight').removeClass('fadeInLeft fadeOutLeft');
+              $('.sk8er7').addClass('fadeInLeft').removeClass('fadeOutRight fadeOutLeft');
+            } else if (direction === 'up') {
+              // hide our content
+              $('.sk8er6').addClass('fadeInRight').removeClass('fadeInLeft fadeOutRight');
+              $('.sk8er7').addClass('fadeOutLeft').removeClass('fadeInLeft fadeOutRight fadeInRight');
+            }
+          }, { offset: '5%' });
+          
+          var $sk8er8 = $('.sk8er8');
+          $sk8er8.waypoint(function(direction) {
+            if (direction === 'down') {
+              // reveal our content
+              $('.sk8er7').addClass('fadeOutRight').removeClass('fadeInLeft fadeOutLeft');
+              $('.sk8er8').addClass('fadeInLeft').removeClass('fadeOutRight fadeOutLeft');
+            } else if (direction === 'up') {
+              // hide our content
+              $('.sk8er7').addClass('fadeInRight').removeClass('fadeInLeft fadeOutRight');
+              $('.sk8er8').addClass('fadeOutLeft').removeClass('fadeInLeft fadeOutRight fadeInRight');
+            }
+          }, { offset: '-5%' });
+          
+          var $sk8er9 = $('.sk8er8');
+          $sk8er9.waypoint(function(direction) {
+            if (direction === 'down') {
+              // reveal our content
+              $('.sk8er8').addClass('fadeOutRight').removeClass('fadeOutLeft');
+            } else if (direction === 'up') {
+              // hide our content
+              $('.sk8er8').addClass('fadeInRight').removeClass('fadeInLeft fadeOutRight');
+            }
+          }, { offset: '-20%' });
+
     </script>
 
     <script type="text/javascript" src="./js/parallax-hero-img.js"></script>
@@ -160,13 +260,6 @@
     <script type="text/javascript" src="./js/plugins.min.js"></script>
     <script type="text/javascript" src="./js/scripts.min.js"></script>
     
-    <!-- SK8ER -->
-<!--    <script type="text/javascript" src="./js/skrollr.min.js"></script>
-    <script type="text/javascript">
-        skrollr.init({
-              forceHeight: false
-            });
-    </script>        -->
         
         <!-- Avatar Pete -->
         <script type="text/javascript">
