@@ -3,9 +3,9 @@
         <div data-viewport-height="100">
             <div class="vertical-align-helper text-align--s-center" data-viewport-height="100">
                 <div class="vertical-align--s-middle">
-                    <h2 class="text-color--black subtitled uppercase slide-in1">
+                    <h2 class="text-color--black subtitled uppercase animated slideIn1">
                         Lord of the code
-                        <span class="slide-in2">Fellowship of the geeks</span>
+                        <span>Fellowship of the geeks</span>
                     </h2>
                 </div>
             </div>

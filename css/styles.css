@@ -654,10 +654,7 @@ to{-webkit-transform:rotateZ(360deg) rotateY(-90deg) rotateX(0deg);transform:rot
 Main Components 
 
 -------------------------------- */
-.cd-background-wrapper {
-  position: relative;
-  overflow: hidden;
-}
+.cd-background-wrapper {position: relative; overflow: hidden; background: #c0d6e7;}
 .no-touch .cd-background-wrapper {
   -webkit-perspective: 2000px;
   -moz-perspective: 2000px;
@@ -726,30 +723,23 @@ Main Components
   -ms-transform: translateZ(400px);
   -o-transform: translateZ(400px);
   transform: translateZ(400px);
+  top: 15px;
+  left: -70px;
 }
 .no-touch.no-preserve-3d .cd-floating-background {
   /* we target browsers that don't support preserve-3d and show just a standard image - no effect visible */
   position: relative;
 }
 
-.slide-in1 {transform: translateY(-600%); transition: 1s;}
-.slide-in2 {transform: translateX(-100%); transition: 1s;}
-.slide-in1.slide-in-done {transform: translateY(0); transition: 1s;}
-.slide-in2.slide-in-done {transform: translateX(0); transition: 1s;}
-
-
-
-
-
-.anime li {display: block; position: absolute;}
 
 /*SK8ERZ*/	
-.sk8er1 {width: 112px; height: 360px; background: transparent url(../images/footer/sk8er1.png) 0 0 no-repeat; z-index: 8; left: 6%;}
-.sk8er2 {width: 112px; height: 360px; background: transparent url(../images/footer/sk8er2.png) 0 0 no-repeat; z-index: 8; left: 18%;}
-.sk8er3 {width: 140px; height: 360px; background: transparent url(../images/footer/sk8er3.png) 0 0 no-repeat; z-index: 8; left: 25%;}
-.sk8er4 {width: 130px; height: 360px; background: transparent url(../images/footer/sk8er4.png) 0 0 no-repeat; z-index: 8; left: 33%;}
-.sk8er5 {width: 102px; height: 360px; background: transparent url(../images/footer/sk8er5.png) 0 0 no-repeat; z-index: 8; left: 41%;}
-.sk8er6 {width: 108px; height: 360px; background: transparent url(../images/footer/sk8er6.png) 0 0 no-repeat; z-index: 8; left: 49%;}
-.sk8er7 {width: 121px; height: 360px; background: transparent url(../images/footer/sk8er7.png) 0 0 no-repeat; z-index: 8; left: 56%;}
-.sk8er8 {width: 114px; height: 360px; background: transparent url(../images/footer/sk8er8.png) 0 0 no-repeat; z-index: 8; left: 65%;}
+.anime li {display: block; position: absolute; height: 360px; z-index: 8; opacity: 0;}
+.sk8er1 {width: 112px; background: transparent url(../images/footer/sk8er1.png) 0 0 no-repeat; left: 6%;}
+.sk8er2 {width: 112px; background: transparent url(../images/footer/sk8er2.png) 0 0 no-repeat; left: 18%;}
+.sk8er3 {width: 140px; background: transparent url(../images/footer/sk8er3.png) 0 0 no-repeat; left: 25%;}
+.sk8er4 {width: 130px; background: transparent url(../images/footer/sk8er4.png) 0 0 no-repeat; left: 33%;}
+.sk8er5 {width: 102px; background: transparent url(../images/footer/sk8er5.png) 0 0 no-repeat; left: 41%;}
+.sk8er6 {width: 108px; background: transparent url(../images/footer/sk8er6.png) 0 0 no-repeat; left: 49%;}
+.sk8er7 {width: 121px; background: transparent url(../images/footer/sk8er7.png) 0 0 no-repeat; left: 56%;}
+.sk8er8 {width: 114px; background: transparent url(../images/footer/sk8er8.png) 0 0 no-repeat; left: 65%;}
 	

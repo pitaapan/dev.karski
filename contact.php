@@ -3,7 +3,7 @@
 
         <div class="vertical-align-helper text-align--s-center" data-viewport-height="100">
             <div class="vertical-align--s-middle">
-                <h2 class="text-color--white subtitled uppercase">
+                <h2 class="text-color--white subtitled uppercase animated slideIn5">
                     Man 4 hire
                     <span>Job seeker, entertainer</span>
                 </h2>

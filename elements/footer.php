@@ -127,14 +127,50 @@
         }
         }, {offset: '50%' });
 
-        var $slideINS = $('.slide-in1, .slide-in2');
-        $slideINS.waypoint(function (direction) {
+        var $slideIn1 = $('.slideIn1');
+        $slideIn1.waypoint(function (direction) {
             if (direction == 'down') {
-            $slideINS.addClass('slide-in-done');
-        } else {
-            $slideINS.removeClass('slide-in-done');
+            $slideIn1.addClass('bounceInDown').removeClass('bounceOutUp');
+        } else if (direction === 'up') {
+            $slideIn1.addClass('bounceOutUp').removeClass('bounceInDown');
         }
-        }, {offset: '75%' });
+        }, {offset: '90%' });
+        
+        var $slideIn2 = $('.slideIn2');
+        $slideIn2.waypoint(function (direction) {
+            if (direction == 'down') {
+            $slideIn2.addClass('tada').removeClass('fadeOutUpBig');
+        } else if (direction === 'up') {
+            $slideIn2.addClass('fadeOutUpBig').removeClass('tada');
+        }
+        }, {offset: '100%' });
+        
+        var $slideIn3 = $('.slideIn3');
+        $slideIn3.waypoint(function (direction) {
+            if (direction == 'down') {
+            $slideIn3.addClass('zoomInUp').removeClass('zoomOutDown');
+        } else if (direction === 'up') {
+            $slideIn3.addClass('zoomOutDown').removeClass('zoomInUp');
+        }
+        }, {offset: '100%' });
+        
+        var $slideIn4 = $('.slideIn4');
+        $slideIn4.waypoint(function (direction) {
+            if (direction == 'down') {
+            $slideIn4.addClass('zoomInDown').removeClass('zoomOutUp');
+        } else if (direction === 'up') {
+            $slideIn4.addClass('zoomOutUp').removeClass('zoomInDown');
+        }
+        }, {offset: '100%' });
+        
+        var $slideIn5 = $('.slideIn5');
+        $slideIn5.waypoint(function (direction) {
+            if (direction == 'down') {
+            $slideIn5.addClass('bounceInDown').removeClass('bounceOutUp');
+        } else if (direction === 'up') {
+            $slideIn5.addClass('bounceOutUp').removeClass('bounceInDown');
+        }
+        }, {offset: '90%' });        
      
         // Mee Sk8terZ
  

@@ -2,11 +2,11 @@
     <div class="chapter__title">
         <div class="vertical-align-helper text-align--s-center" data-viewport-height="100">
             <div class="vertical-align--s-middle">
-                <h2 class="text-color--black subtitled uppercase">
+                <h2 class="text-color--black subtitled uppercase animated slideIn3">
                     My favourite works
                     <span>Like I could fit 5 years in 3168 lines of code</span>
                 </h2>
-                <nav class="project-nav">
+                <nav class="project-nav animated slideIn4">
                     <ul>
                         <li><a href="prestige" data-project="prestige" class="">Top Gear</a></li>
                         <li> / </li>

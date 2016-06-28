@@ -15,7 +15,7 @@
         <i class="icon"></i>
     </a>
     <div class="site-main fullpage">
-        <section class="fullpage-section block block--hero" data-viewport-height="100">
+        <section data-id="home" class="fullpage-section block block--hero" data-viewport-height="100">
             
             <div id="gg_promo_avatar" class="avatar"></div>
             

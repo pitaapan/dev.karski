@@ -2,7 +2,7 @@
     <div class="chapter__title">
         <div class="vertical-align-helper text-align--s-center" data-viewport-height="100">
             <div class="vertical-align--s-middle">
-                <h2 class="text-color--white subtitled uppercase">
+                <h2 class="text-color--white subtitled uppercase animated slideIn2">
                     Particular set of skills
                     <span>Skills I have acquired over the years</span>
                 </h2>
