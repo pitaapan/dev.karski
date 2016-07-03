@@ -23,7 +23,7 @@
             </div>
             
         </div>
-        <section class="fullpage-section block" data-viewport-min-height="100">
+        <section data-id="the-end" class="fullpage-section block" data-viewport-min-height="100">
             <div class="vertical-align-helper text-align--s-center" data-viewport-height="100">
                 <div class="vertical-align--s-middle">
                     <div class="chapter__content">
@@ -46,7 +46,7 @@
                                 </ul>
                             </nav>
                             <div class="clearfix">
-                                <a class="button--ghost cv" target="_blank" href="./images/footer/Pete_Karski_CV.pdf">Download my CV.pdf</a>
+                                <a class="button--ghost cv" target="_blank" href="./elements/Pete_Karski_CV.pdf">Download my CV.pdf</a>
                             </div>
                         </div>
                     </div><!-- chapter__content --> 
@@ -112,8 +112,6 @@
                 </div>
             </div>
         </div>
-        
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     
     <script type="text/javascript" src="./js/jquery.waypoints.min.js"></script>
     <script>
@@ -299,11 +297,10 @@
         
         <!-- Avatar Pete -->
         <script type="text/javascript">
-            
         try{(function(){function g(a){for(var b=0,c=0;a;)b+=a.offsetLeft-a.scrollLeft+a.clientLeft,c+=a.offsetTop-a.scrollTop+a.clientTop,a=a.offsetParent;return{x:b,y:c}}function k(a,b,c){if(80>b)return 4;if(0<=a.x&&0<=a.y)return 5>c?7:67<c?5:8;if(0<=a.x&&0>a.y)return-23<c?1:-67>c?5:2;if(0>a.x&&0>a.y)return 5>c?1:50<c?3:0;if(0>a.x&&0<=a.y)return-45<c?7:-70>c?3:6}function h(a,b,c){b.addEventListener?b.addEventListener(a,c,!1):b.attachEvent&&b.attachEvent("on"+a,c)}var l="0px 0px;-203px 0px;-411px 0px;0px -183px;-203px -183px;-411px -183px;0px -365px;-203px -365px;-411px -365px".split(";"),
 d={x:0,y:0},e=document.getElementById("gg_promo_avatar"),f=g(e);h("mousemove",document,function(a){try{var b={x:a.pageX-f.x-75,y:a.pageY-f.y-75};20>Math.abs(d.x-b.x)+Math.abs(d.y-b.y)||(d=b,e.style.backgroundPosition=l[k(b,Math.sqrt(b.x*b.x+b.y*b.y),180/Math.PI*Math.atan(b.x/b.y))])}catch(c){}});h("resize",window,function(){try{f=g(e)}catch(a){}})})()}catch(m){};
-        
         </script>
+        
     </body>
 </html>
 

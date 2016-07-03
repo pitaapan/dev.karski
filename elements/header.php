@@ -16,6 +16,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="#473C39">
 
     <!-- SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script type="text/javascript" src="./js/respond.min.js"></script>
     <script type="text/javascript" src="./js/modernizr.min.js"></script>
     <!-- What da Font? -->
