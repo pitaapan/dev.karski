@@ -22,35 +22,23 @@
 
     </div><!-- chapter__title -->
     
-    <div class="chapter__content" data-viewport-min-height="100" style="background: url(./images/sections/typewriter.svg) #FFC170; background-size: cover;">
-        <div class="row padding--s-2 padding--m-4" style="transform: rotateX(5deg) rotateY(-5deg) rotateZ(5deg);">
-            <div class="column--s-12 padding--s-1 padding--m-2">
-                
-                <h3 class="montserrat">Drop me a note</h3>
-                
-                
-                
-                <pre>
-                <br><br>
-                              Dear Pete,
-                              My name is ......... you can email me back at
-                              ............... or call me on ...............
-                              I would like to .............................
-                                              .............................
-                                              oh and btw 2 + 6 is .........
-                </pre>
-                <a class="button--ghost cv">SUBMIT</a> 
-
-            <!-- Contact Form -->
-
-            <!--/ Contact Form -->
-
+    <div class="chapter__content" data-viewport-min-height="100">
+        <div class="row" style="transform: rotateX(5deg) rotateY(-5deg) rotateZ(5deg);">
+            <div class="column--s-12 padding--top--s-2">
+                <fieldset id="contact_form">
+                <h4 class="montserrat">Drop me a note</h4>
+                    <div id="result"></div>
+                        Dear Pete,<br>
+                        My name is <input type="text" name="name" id="name" placeholder="Jimmy Kowalsky" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Jimmy Kowalsky'" /> you can email me back at
+                        <input type="email" name="email" id="email" placeholder="jimbo@email.com" onfocus="this.placeholder = ''" onblur="this.placeholder = 'jimbo@email.com'" /> or call me on 
+                        <input type="text" name="phone" id="phone" placeholder="01234 56789" onfocus="this.placeholder = ''" onblur="this.placeholder = '01234 56789'" />
+                        <span>I would like to</span> <textarea class='autoExpand' rows='2' data-min-rows='2' name="message" id="message" placeholder="tell you something" onfocus="this.placeholder = ''" onblur="this.placeholder = 'tell you something'" /></textarea>
+                        <button class="button--ghost" id="submit_btn">SUBMIT</button>
+                </fieldset>
             </div>
-            <div class="imprint column--s-12 padding--s-3 padding--m-6">
-                <a href="#" data-overlay="easter-egg" class="button--imprint subtitled button button--default button--narrow button--rounded uppercase button--black-to-red">
-                    <span class="button__label">Easter Egg</span>
-                </a>
-            </div>
+        </div>
+        <div class="imprint column--s-12" style="transform: rotateX(5deg) rotateY(-5deg) rotateZ(5deg);">
+            <a href="#" data-overlay="easter-egg" class="button--imprint button">EASTER EGG</a>
         </div>
     </div><!-- chapter__content -->
 </section><!-- Block Contact -->

@@ -67,7 +67,7 @@
                     <div class="overlay__content vertical-align--s-middle">
                             <div class="row padding--s-1 padding--m-3">
                                     <div class="column--s-12 column--m-8 column-offset--m-2 padding--s-2 padding--m-3">
-                                            <h5 class="text-align--s-center text-color--red">Pete Karski the Rock Star</h5>
+                                            <h5 class="text-align--s-center">Pete Karski the Rock Star</h5>
 
         <iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/tkNComNbipQ?rel=0&amp;controls=0" frameborder="0" allowfullscreen></iframe>
 
@@ -294,6 +294,85 @@
     <script type="text/javascript" src="./js/plugins.min.js"></script>
     <script type="text/javascript" src="./js/scripts.min.js"></script>
     
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#submit_btn").click(function() { 
+            //Pobieramy dane
+            var user_name = $('input[name=name]').val(); 
+            var user_email = $('input[name=email]').val();
+            var user_phone = $('input[name=phone]').val();
+            var user_message = $('textarea[name=message]').val();
+
+            //Prosta walidacja (kolorujemy na czerwono pole jeśli jest puste
+            var proceed = true;
+            if(user_name==""){ 
+            $('input[name=name]').css('border-color','red'); 
+            proceed = false;
+            }
+            if(user_email==""){ 
+            $('input[name=email]').css('border-color','red'); 
+            proceed = false;
+            }
+            if(user_phone=="") { 
+            $('input[name=phone]').css('border-color','red'); 
+            proceed = false;
+            }
+            if(user_message=="") { 
+            $('textarea[name=message]').css('border-color','red'); 
+            proceed = false;
+            }
+            //wszystko w porządku idziemy dalej
+            if(proceed) 
+            {
+            //Dane do wysłania
+            post_data = {'userName':user_name, 'userEmail':user_email, 'userPhone':user_phone, 'userMessage':user_message};
+
+            //Przesłanie danych poprzez AJAX
+            $.post('contact_me.php', post_data, function(response){
+            //wczytanie danych zwrotnych JSON
+            if(response.type == 'error')
+            {
+            output = '<div class="error">'+response.text+'</div>';
+            }else{
+            output = '<div class="success">'+response.text+'</div>';
+
+            //resetujemy wszystkie wartości
+            $('#contact_form input').val(''); 
+            $('#contact_form textarea').val(''); 
+            }
+
+            $("#result").hide().html(output).slideDown();
+            }, 'json');
+
+            }
+        });
+
+        //resetujemy kolorowanie po zaczęciu pisania
+        $("#contact_form input, #contact_form textarea").keyup(function() { 
+        $("#contact_form input, #contact_form textarea").css('border-color',''); 
+        $("#result").slideUp();
+        });
+
+        });
+
+    // Expandable Text Area
+    
+        $(document)
+		.one('focus.textarea', '.autoExpand', function(){
+			var savedValue = this.value;
+			this.value = '';
+			this.baseScrollHeight = this.scrollHeight;
+			this.value = savedValue;
+		})
+		.on('input.textarea', '.autoExpand', function(){
+			var minRows = this.getAttribute('data-min-rows')|0,
+				 rows;
+			this.rows = minRows;
+//        console.log(this.scrollHeight , this.baseScrollHeight);
+			rows = Math.ceil((this.scrollHeight - this.baseScrollHeight) / 17);
+			this.rows = minRows + rows;
+        });
+</script>
         
         <!-- Avatar Pete -->
         <script type="text/javascript">
