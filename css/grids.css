@@ -30,7 +30,7 @@ button[disabled],html input[disabled]{cursor:default}
 button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
 textarea,
 input {line-height:normal; width: 40%; max-width: 100%; margin: 0 3px; background-image: repeating-linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 16px, #b2b2b2 17px, #b2b2b2 17px); background-color: #fff; transition: 0.4s;}
-textarea {width: 62%; min-height: 48px;}
+textarea {width: 60%; min-height: 48px;}
 textarea:focus,
 input:focus {background-image: repeating-linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 16px, #ffc170 17px, #ffc170 17px)}
 input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}
@@ -945,8 +945,8 @@ td.visible--print,th.visible--print{display:table-cell!important}
 .button--ghost {border:2px solid; border-radius: 4px; padding: 20px 35px; text-decoration: none; transition: 0.4s;}
 .button--ghost.cv {position: relative; top: 80px; border-color: #ecb062; color: #ecb062;}
 .button--ghost.cv:hover {border-color: #7f7272; color: #7f7272;}
-.button--ghost#submit_btn {border-color: #b2b2b2; color: #b2b2b2; padding: 10px 20px; margin: 10px;}
-.button--ghost#submit_btn:hover {border-color: #FFC170; color: #FFC170;}
+.button--ghost#submit_btn {border-color: #b2b2b2; color: #000; padding: 10px 20px; margin: 10px;}
+.button--ghost#submit_btn:hover {border-color: #FFC170; color: #b2b2b2;}
 figure{margin:0}
 img.responsive{display:block}
 div[class*=padding]>:last-child{margin-bottom:0}

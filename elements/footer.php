@@ -1,29 +1,30 @@
 </div><!-- site-main fullpage -->
         
     <footer class="site-footer background-color--dark-grey">
+        <section data-id="the-end">
+            <div class="cd-background-wrapper">
+                <figure class="cd-floating-background">
+                    <img src="./images/footer/behind-all.png" alt="image-1">
+                    <img src="./images/footer/mini-ramp.png" alt="image-2">
+                    <img src="./images/footer/bench.png" alt="image-3">
+                </figure>
+                <ul class="anime">
+                    <li class="sk8er1 animated"></li>
+                    <li class="sk8er2 animated"></li>
+                    <li class="sk8er3 animated"></li>
+                    <li class="sk8er4 animated"></li>
+                    <li class="sk8er5 animated"></li>
+                    <li class="sk8er6 animated"></li>
+                    <li class="sk8er7 animated"></li>
+                    <li class="sk8er8 animated"></li>
+                </ul>
 
-        <div class="cd-background-wrapper">
-            <figure class="cd-floating-background">
-                <img src="./images/footer/behind-all.png" alt="image-1">
-                <img src="./images/footer/mini-ramp.png" alt="image-2">
-                <img src="./images/footer/bench.png" alt="image-3">
-            </figure>
-            <ul class="anime">
-                <li class="sk8er1 animated"></li>
-                <li class="sk8er2 animated"></li>
-                <li class="sk8er3 animated"></li>
-                <li class="sk8er4 animated"></li>
-                <li class="sk8er5 animated"></li>
-                <li class="sk8er6 animated"></li>
-                <li class="sk8er7 animated"></li>
-                <li class="sk8er8 animated"></li>
-            </ul>
-            
-            <div id="element-to-animate" class="animated">
+                <div id="element-to-animate" class="animated">
+                </div>
+
             </div>
-            
-        </div>
-        <section data-id="the-end" class="fullpage-section block" data-viewport-min-height="100">
+        </section>
+        <section class="fullpage-section block" data-viewport-min-height="100">
             <div class="vertical-align-helper text-align--s-center" data-viewport-height="100">
                 <div class="vertical-align--s-middle">
                     <div class="chapter__content">
@@ -306,19 +307,19 @@
             //Prosta walidacja (kolorujemy na czerwono pole jeśli jest puste
             var proceed = true;
             if(user_name==""){ 
-            $('input[name=name]').css('border-color','red'); 
+            $('input[name=name]').css('border-bottom','1px solid red'); 
             proceed = false;
             }
             if(user_email==""){ 
-            $('input[name=email]').css('border-color','red'); 
+            $('input[name=email]').css('border-bottom','1px solid red'); 
             proceed = false;
             }
             if(user_phone=="") { 
-            $('input[name=phone]').css('border-color','red'); 
+            $('input[name=phone]').css('border-bottom','1px solid red'); 
             proceed = false;
             }
             if(user_message=="") { 
-            $('textarea[name=message]').css('border-color','red'); 
+            $('textarea[name=message]').css('border-bottom','1px solid red'); 
             proceed = false;
             }
             //wszystko w porządku idziemy dalej
@@ -349,7 +350,7 @@
 
         //resetujemy kolorowanie po zaczęciu pisania
         $("#contact_form input, #contact_form textarea").keyup(function() { 
-        $("#contact_form input, #contact_form textarea").css('border-color',''); 
+        $("#contact_form input, #contact_form textarea").css('border-bottom','0'); 
         $("#result").slideUp();
         });
 

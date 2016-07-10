@@ -24,15 +24,15 @@
     
     <div class="chapter__content" data-viewport-min-height="100">
         <div class="row" style="transform: rotateX(5deg) rotateY(-5deg) rotateZ(5deg);">
-            <div class="column--s-12 padding--top--s-2">
+            <div class="column--s-12">
                 <fieldset id="contact_form">
                 <h4 class="montserrat">Drop me a note</h4>
                     <div id="result"></div>
                         Dear Pete,<br>
-                        My name is <input type="text" name="name" id="name" placeholder="Jimmy Kowalsky" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Jimmy Kowalsky'" /> you can email me back at
-                        <input type="email" name="email" id="email" placeholder="jimbo@email.com" onfocus="this.placeholder = ''" onblur="this.placeholder = 'jimbo@email.com'" /> or call me on 
-                        <input type="text" name="phone" id="phone" placeholder="01234 56789" onfocus="this.placeholder = ''" onblur="this.placeholder = '01234 56789'" />
-                        <span>I would like to</span> <textarea class='autoExpand' rows='2' data-min-rows='2' name="message" id="message" placeholder="tell you something" onfocus="this.placeholder = ''" onblur="this.placeholder = 'tell you something'" /></textarea>
+                        My name is <input type="text" name="name" id="name"> you can email me back at
+                        <input type="email" name="email" id="email"> or call me on 
+                        <input type="text" name="phone" id="phone">
+                        <span>I would like to</span> <textarea class='autoExpand' rows='2' data-min-rows='2' name="message" id="message"></textarea>
                         <button class="button--ghost" id="submit_btn">SUBMIT</button>
                 </fieldset>
             </div>

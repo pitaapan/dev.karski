@@ -450,28 +450,39 @@ to{-webkit-transform:rotateZ(360deg) rotateY(-90deg) rotateX(0deg);transform:rot
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c9618', endColorstr='#08630f',GradientType=0 );
         }
        
-    fieldset {margin: 50px auto 0;}
+    fieldset {margin: 80px auto 0;}
     fieldset h4 {margin-top: -50px; margin-bottom: 30px;}
-    .block--contact .chapter__content {background: url(../images/sections/typewriter.svg) 48% 10% no-repeat #FFC170; background-size: 178%;}
-    .block--contact .chapter__content .imprint{position: absolute; right: 25px; text-align: right; bottom: -5%; font-size: 1.1em;}
+    .block--contact .chapter__content {background: url(../images/sections/typewriter.svg) 48% 100% no-repeat #FFC170; background-size: 130%;}
+    .block--contact .chapter__content .imprint{position: absolute; right: 25px; text-align: right; bottom: -6%; font-size: 1.1em;}
 
 }
-
 @media (min-width:425px) {
     fieldset {width: 85%;}
     .block--contact .chapter__content {background-position: 53% 21%; background-size: 150%;}
     .block--contact .chapter__content .imprint {bottom: -8%;}
 }
-
 @media (min-width:600px) {
-    fieldset {width: 66%; padding: 30px; margin: 90px auto 0;}
+    fieldset {width: 66%; padding: 30px; margin: 150px auto 0;}
     fieldset h4 {margin-top: -90px; margin-bottom: 60px;}
-    .block--contact .chapter__content {background-position: 55% 100%; background-size: 156%;}
     .block--contact .chapter__content .imprint {bottom: 0;}
 }
-
 @media (min-width:768px) {
     .block--contact .chapter__content {background-position: 55% 85%;}
+}
+@media (min-width:769px) {
+    .block--contact .chapter__content {background-position: 53% 21%;}
+}
+@media (min-width:992px) {
+    fieldset {margin: 100px auto 0;}
+    fieldset span {display: block;}
+    .button--ghost#submit_btn {margin: 10px auto; padding: 15px 40px; display: block;}
+    .block--contact .chapter__content {background-position: 50% 100%;}
+}
+@media (min-width:1360px) {
+    fieldset {width: 50%; margin: 130px auto 0; padding: 30px 30px 0;}
+    input {width: 34%; margin: 5px 3px;}
+    textarea {width: 98%;}
+    .block--contact .chapter__content {background-size: 115%; background-position: 63% 30%;}
 }
 
 @media (min-width:992px) {
@@ -671,97 +682,119 @@ to{-webkit-transform:rotateZ(360deg) rotateY(-90deg) rotateX(0deg);transform:rot
 .window-height{min-height:100vh;height:100vh}
 }
 
-/* -------------------------------- 
+/* ----  Moving Background Desktop Base Styles ---- */
 
-Main Components 
+@media (min-width:1px) {
+    .cd-background-wrapper {position: relative; overflow: hidden;
+        background: #bdaf93;
+        background: -moz-linear-gradient(top, #7db9e8 10%, #bdaf93 20%);
+        background: -webkit-linear-gradient(top, #7db9e8 10%, #bdaf93 20%);
+        background: linear-gradient(to bottom, #7db9e8 10%, #bdaf93 20%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#bdaf93',GradientType=0 );
+    }
+    .no-touch .cd-background-wrapper {
+      -webkit-perspective: 2000px;
+      -moz-perspective: 2000px;
+      perspective: 2000px;
+    }
+    .cd-background-wrapper::before {
+      /* never visible - this is used in jQuery to check the device type */
+      content: 'web';
+      display: none;
+    }
+    .touch .cd-background-wrapper::before {
+      /* never visible - this is used in jQuery to check the device type */
+      content: 'mobile';
+    }
 
--------------------------------- */
-.cd-background-wrapper {position: relative; overflow: hidden; background: #c0d6e7;}
-.no-touch .cd-background-wrapper {
-  -webkit-perspective: 2000px;
-  -moz-perspective: 2000px;
-  perspective: 2000px;
-}
-.cd-background-wrapper::before {
-  /* never visible - this is used in jQuery to check the device type */
-  content: 'web';
-  display: none;
-}
-.touch .cd-background-wrapper::before {
-  /* never visible - this is used in jQuery to check the device type */
-  content: 'mobile';
-}
-
-.cd-floating-background {
-  position: relative;
-}
-.cd-floating-background img {
-  display: block;
-  width: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  /* fixes a Firefox bug - images not correctly rendered*/
-  background-color: rgba(255, 255, 255, 0.01);
-}
-.cd-floating-background img:not(:first-child) {
-  position: absolute;
-  top: 80px;
-  left: 0;
-}
-.no-touch .cd-floating-background {
-  top: 0;
-  left: 0;
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  -ms-transform-style: preserve-3d;
-  -o-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-  -webkit-transform: translateZ(0);
-  -moz-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  -o-transform: translateZ(0);
-  transform: translateZ(0);
-}
-.no-touch .cd-floating-background.is-absolute {
-  position: absolute;
-}
-.no-touch .cd-floating-background img:first-child {
-  -webkit-transform: translateZ(50px);
-  -moz-transform: translateZ(50px);
-  -ms-transform: translateZ(50px);
-  -o-transform: translateZ(50px);
-  transform: translateZ(50px);
-}
-.no-touch .cd-floating-background img:nth-child(2) {
-  -webkit-transform: translateZ(290px);
-  -moz-transform: translateZ(290px);
-  -ms-transform: translateZ(290px);
-  -o-transform: translateZ(290px);
-  transform: translateZ(290px);
-}
-.no-touch .cd-floating-background img:nth-child(3) {
-  -webkit-transform: translateZ(400px);
-  -moz-transform: translateZ(400px);
-  -ms-transform: translateZ(400px);
-  -o-transform: translateZ(400px);
-  transform: translateZ(400px);
-  top: 15px;
-  left: -70px;
-}
-.no-touch.no-preserve-3d .cd-floating-background {
-  /* we target browsers that don't support preserve-3d and show just a standard image - no effect visible */
-  position: relative;
+    .cd-floating-background {
+      position: relative;
+    }
+    .cd-floating-background img {
+      display: block;
+      width: 100%;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      /* fixes a Firefox bug - images not correctly rendered*/
+      background-color: rgba(255, 255, 255, 0.01);
+    }
+    .cd-floating-background img:not(:first-child) {
+      position: absolute;
+      top: 80px;
+      left: 0;
+    }
+    .no-touch .cd-floating-background {
+      top: 0;
+      left: 0;
+      -webkit-transform-style: preserve-3d;
+      -moz-transform-style: preserve-3d;
+      -ms-transform-style: preserve-3d;
+      -o-transform-style: preserve-3d;
+      transform-style: preserve-3d;
+      -webkit-transform: translateZ(0);
+      -moz-transform: translateZ(0);
+      -ms-transform: translateZ(0);
+      -o-transform: translateZ(0);
+      transform: translateZ(0);
+    }
+    .no-touch .cd-floating-background.is-absolute {
+      position: absolute;
+    }
+    .no-touch .cd-floating-background img:first-child {
+      -webkit-transform: translateZ(50px);
+      -moz-transform: translateZ(50px);
+      -ms-transform: translateZ(50px);
+      -o-transform: translateZ(50px);
+      transform: translateZ(50px);
+    }
+    .no-touch .cd-floating-background img:nth-child(2) {
+      -webkit-transform: translateZ(290px);
+      -moz-transform: translateZ(290px);
+      -ms-transform: translateZ(290px);
+      -o-transform: translateZ(290px);
+      transform: translateZ(290px);
+    }
+    .no-touch .cd-floating-background img:nth-child(3) {
+      -webkit-transform: translateZ(400px);
+      -moz-transform: translateZ(400px);
+      -ms-transform: translateZ(400px);
+      -o-transform: translateZ(400px);
+      transform: translateZ(400px);
+      top: 15px;
+      left: -70px;
+    }
+    .no-touch.no-preserve-3d .cd-floating-background {
+      /* we target browsers that don't support preserve-3d and show just a standard image - no effect visible */
+      position: relative;
+    }
 }
 
 
-/*SK8ERZ*/	
-.anime li {display: block; position: absolute; height: 360px; z-index: 8; opacity: 0;}
-.sk8er1 {width: 112px; background: transparent url(../images/footer/sk8er1.png) 0 0 no-repeat; left: 6%;}
-.sk8er2 {width: 112px; background: transparent url(../images/footer/sk8er2.png) 0 0 no-repeat; left: 18%;}
-.sk8er3 {width: 140px; background: transparent url(../images/footer/sk8er3.png) 0 0 no-repeat; left: 25%;}
-.sk8er4 {width: 130px; background: transparent url(../images/footer/sk8er4.png) 0 0 no-repeat; left: 33%;}
-.sk8er5 {width: 102px; background: transparent url(../images/footer/sk8er5.png) 0 0 no-repeat; left: 41%;}
-.sk8er6 {width: 108px; background: transparent url(../images/footer/sk8er6.png) 0 0 no-repeat; left: 49%;}
-.sk8er7 {width: 121px; background: transparent url(../images/footer/sk8er7.png) 0 0 no-repeat; left: 56%;}
-.sk8er8 {width: 114px; background: transparent url(../images/footer/sk8er8.png) 0 0 no-repeat; left: 65%;}
-	
+
+@media (min-width:1px) {
+    .cd-background-wrapper, .cd-floating-background {min-height: 400px;}
+    /*SK8ERZ*/	
+    .anime li {display: block; position: absolute; height: 280px; width: 80px; top: 28%; background-size: contain; z-index: 8; opacity: 0;}
+    .sk8er1 {background: transparent url(../images/footer/sk8er1.png) 0 0 no-repeat; left: 6%;}
+    .sk8er2 {background: transparent url(../images/footer/sk8er2.png) 0 0 no-repeat; left: 18%;}
+    .sk8er3 {background: transparent url(../images/footer/sk8er3.png) 0 0 no-repeat; left: 25%;}
+    .sk8er4 {background: transparent url(../images/footer/sk8er4.png) 0 0 no-repeat; left: 33%;}
+    .sk8er5 {background: transparent url(../images/footer/sk8er5.png) 0 0 no-repeat; left: 41%;}
+    .sk8er6 {background: transparent url(../images/footer/sk8er6.png) 0 0 no-repeat; left: 49%;}
+    .sk8er7 {background: transparent url(../images/footer/sk8er7.png) 0 0 no-repeat; left: 56%;}
+    .sk8er8 {background: transparent url(../images/footer/sk8er8.png) 0 0 no-repeat; left: 65%;}
+}
+
+@media (min-width:425px) {
+    .cd-background-wrapper, .cd-floating-background {min-height: 500px;}
+    .anime li {height: 300px; width: 100px; top: 36%;}
+}
+
+@media (min-width:1441px) {
+    .anime li {height: 300px;}
+}
+
+@media (min-width:1601px) {
+    .cd-background-wrapper, .cd-floating-background {min-height: auto; background: #7db9e8;}
+    .anime li {height: 360px; width: 140px; top: 0;}
+}
