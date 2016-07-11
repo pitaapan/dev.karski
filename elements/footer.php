@@ -66,21 +66,16 @@
             <div class="overlay overlay--imprint vertical-align-helper text-align--s-center background-color--white" data-overlay="easter-egg">
                     <a data-overlay="easter-egg" class="overlay__background"></a>
                     <div class="overlay__content vertical-align--s-middle">
-                            <div class="row padding--s-1 padding--m-3">
-                                    <div class="column--s-12 column--m-8 column-offset--m-2 padding--s-2 padding--m-3">
+                            <div class="row padding--s-2 padding--m-4 padding--horizontal--xl-5 padding--vertical--xl-8">
+                                <div class="column--s-12">
                                             <h5 class="text-align--s-center">Pete Karski the Rock Star</h5>
 
-        <iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/tkNComNbipQ?rel=0&amp;controls=0" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube-nocookie.com/embed/tkNComNbipQ?rel=0&amp;controls=1&amp;autoplay=0" frameborder="0" allowfullscreen="0"></iframe>
 
-                                            <h6 class="subtitled">Copyright</h6>
+                                            <h5 class="subtitled">Copyright &copy; <?php echo date('Y')?></h5>
                                             <p>
-                                                    Pete Karski intended not to use any copyrighted material for the publication or, if not possible, to indicate the copyright of the respective object. The copyright for any material created by Pete Karski is reserved. Any duplication or use of objects such as images or texts in other electronic or printed publications is not permitted without Pete Karski's agreement. 
+                                                    Pete Karski find a sample disclaimer please... Any similaries may be accidental didn#t indend ans stuff...
                                             </p>
-                                            <h6 class="subtitled">Legal Validity of this disclaimer</h6>
-                                            <p>
-                                                    This disclaimer is to be regarded as part of the internet publication which you were referred from. If sections or individual terms of this statement are not legal or correct, the content or validity of the other parts remain uninfluenced by this fact.
-                                            </p>
-
                                     </div>
                             </div>
                     </div>

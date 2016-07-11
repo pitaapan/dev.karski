@@ -966,13 +966,23 @@ nav>ol li,nav>ul li{margin:0;padding:0}
     .as-h5,h5{font-size:1.125em}
     .as-h6,h6{font-size:.875em}
 
-    ul.lists li {width: 100%; float: left; list-style: none;}
-    ul.checks li {padding: 5px 0 5px 30px; background: url("../images/sections/check.png") 0 50% no-repeat; list-style: none;}
+    ul.lists li {width: 50%; float: left; list-style: none;}
+    ul.lists li:first-of-type {width: 100%;}
+    ul.checks li,
+    ul.checks li:first-of-type {width: 100%; margin-left: 20%; padding: 5px 0 5px 30px; background: url("../images/sections/check.png") 0 50% no-repeat; list-style: none;}
     ul.checks.lite li {background-image: url("../images/sections/check-lite.png");}
-    ul.tools li img {float: left; margin: 10px 10px 10px 0;}
-    ul.tools li span {position: relative; top: 38px;}
-
+    ul.tools li img {display: block; margin: 10px auto;}
+    span.tag,
+    ul.tools li span {position: relative; float: left; width: 100%; text-align: center;}
 }
+@media (min-width:600px) {
+    ul.lists li,
+    ul.lists li:first-of-type {width: 50%; margin: 0;}
+    span.tag {position: relative; top: 43px; left: 0; float: none; width: auto; text-align: right;}
+    ul.tools li img {float: left; margin: 10px 10px 10px 0;}
+    ul.tools li span {position: relative; top: 38px; float: none; width: auto; text-align: right;}
+}
+
 @media (min-width:768px) {
     .as-h1,h1{font-size:2.5em}
     .as-h2,h2{font-size:2em}
@@ -980,9 +990,6 @@ nav>ol li,nav>ul li{margin:0;padding:0}
     .as-h4,h4{font-size:1.375em}
     .as-h5,h5{font-size:1.125em}
     .as-h6,h6{font-size:.875em}
-    
-    ul.lists li {width: 50%;}
-    
 }
 @media (min-width:992px) {
     .as-h1,h1{font-size:3em}
@@ -1000,7 +1007,8 @@ nav>ol li,nav>ul li{margin:0;padding:0}
 }
 
 @media (min-width:1440px) {
-    ul.lists li {width: 33.333%;}
+    ul.lists li,
+    ul.lists li:first-of-type {width: 33.333%;}
     
 }
 

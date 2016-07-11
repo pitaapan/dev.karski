@@ -1,7 +1,9 @@
 <?php include 'elements/header.php'; ?>
 <div class="site-wrapper">
     <div class="bg-video-contain" data-viewport-height="100">
-        <video id="bg-video" preload="auto" autoplay="true" loop="loop" muted="muted" poster="videos/cat-eye-karski-still.jpg">
+        <video id="bg-video" class="hidden--m hidden--s" preload="auto" autoplay="true" loop="loop" muted="muted" poster="videos/cat-eye-karski-still.jpg">
+            <source src="videos/cat-eye-karski.webm" type="video/webm">
+            <source src="videos/cat-eye-karski.ogg" type="video/ogg">
             <source src="videos/cat-eye-karski.mp4" type="video/mp4">
         </video>
     </div>

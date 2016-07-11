@@ -14,7 +14,7 @@
     </div><!-- chapter__title -->
     <div class="chapter__content">
         <div class="row padding--s-2 padding--m-4 padding--horizontal--xl-5 padding--vertical--xl-8">
-            <div class="column--s-12 padding--s-1">
+            <div class="column--s-12">
                 <h3 class="montserrat">Key Skills</h3>
                 <p>
                     I am a Front End Developer and Designer with over 5 years commercial experience. Loving what I do, it becomes so easy to acquire new skills and keep on advancing. For what it's worth I am always thirsty for more. Find a snapshot of my talents below please.
@@ -22,6 +22,18 @@
                 <h4>Developer skills</h4>
                 <div class="row padding--vertical--m-2 padding--vertical--s-1">
                     <ul class="lists">
+                        <li>
+                            <span class="button--hexagon skillz">
+                                <span class="slice fill"></span>
+                                <span class="slice fill"></span>
+                                <span class="slice fill"></span>
+                                <span class="slice fill"></span>
+                                <span class="slice fill"></span>
+                                <span class="slice fill"></span>
+                                <span class="button__label text-color--white">99%</span>
+                            </span>
+                            <span class="tag">Responsive</span>
+                        </li>
                         <li>
                             <span class="button--hexagon skillz">
                                 <span class="slice fill"></span>
@@ -45,18 +57,6 @@
                                 <span class="button__label text-color--white">95%</span>
                             </span>
                             <span class="tag">CSS3</span>
-                        </li>
-                        <li>
-                            <span class="button--hexagon skillz">
-                                <span class="slice fill"></span>
-                                <span class="slice fill"></span>
-                                <span class="slice fill"></span>
-                                <span class="slice fill"></span>
-                                <span class="slice fill"></span>
-                                <span class="slice fill"></span>
-                                <span class="button__label text-color--white">99%</span>
-                            </span>
-                            <span class="tag">Responsive</span>
                         </li>
                         <li>
                             <span class="button--hexagon skillz">
