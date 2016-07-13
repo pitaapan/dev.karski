@@ -808,11 +808,14 @@ td.visible--print,th.visible--print{display:table-cell!important}
 .hidden--print{display:none!important}
 }
 @media (min-width:1px) {
-.text-size-small {font-size: 14px;}
+.text-size-small {font-size: 12px;}
 .text-align--s-left{text-align:left}
 .text-align--s-center{text-align:center}
 .text-align--s-right{text-align:right}
 .text-align--s-justify{text-align:justify}
+}
+@media (min-width:600px) {
+.text-size-small {font-size: 14px;}
 }
 @media (min-width:768px) {
 .text-align--m-left{text-align:left}
@@ -938,12 +941,12 @@ td.visible--print,th.visible--print{display:table-cell!important}
 .lowercase {text-transform:lowercase!important}
 .nocase {text-transform:none!important}
 .subtitled {margin-bottom:0!important}
-.subtitled span {display: block; font-size: 14px; line-height: 1.5; margin: 10px 0 50px;}
+.subtitled span {display: block; font-size: 14px; line-height: 1.5; margin: 10px 0 20px;}
 .line-collapse {line-height:1em!important}
 .underlined {text-decoration:underline}
 
 .button--ghost {border:2px solid; border-radius: 4px; padding: 20px 35px; text-decoration: none; transition: 0.4s;}
-.button--ghost.cv {position: relative; top: 80px; border-color: #ecb062; color: #ecb062;}
+.button--ghost.cv {position: relative; top: 30px; border-color: #ecb062; color: #ecb062; background: #282828; z-index: 1;}
 .button--ghost.cv:hover {border-color: #7f7272; color: #7f7272;}
 .button--ghost#submit_btn {border-color: #b2b2b2; color: #000; padding: 10px 20px; margin: 10px;}
 .button--ghost#submit_btn:hover {border-color: #FFC170; color: #b2b2b2;}
@@ -976,11 +979,13 @@ nav>ol li,nav>ul li{margin:0;padding:0}
     ul.tools li span {position: relative; float: left; width: 100%; text-align: center;}
 }
 @media (min-width:600px) {
+    .subtitled span {margin: 10px 0 50px;}
     ul.lists li,
     ul.lists li:first-of-type {width: 50%; margin: 0;}
     span.tag {position: relative; top: 43px; left: 0; float: none; width: auto; text-align: right;}
     ul.tools li img {float: left; margin: 10px 10px 10px 0;}
     ul.tools li span {position: relative; top: 38px; float: none; width: auto; text-align: right;}
+    .button--ghost.cv {top: 80px;}
 }
 
 @media (min-width:768px) {

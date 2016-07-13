@@ -30,7 +30,7 @@
                     <div id="result"></div>
                         Dear Pete,<br>
                         My name is <input type="text" name="name" id="name"> you can email me back at
-                        <input type="email" name="email" id="email"> or call me on 
+                        <input type="email" name="email" id="email"> or call me on
                         <input type="text" name="phone" id="phone">
                         <span>I would like to</span> <textarea class='autoExpand' rows='2' data-min-rows='2' name="message" id="message"></textarea>
                         <button class="button--ghost" id="submit_btn">SUBMIT</button>

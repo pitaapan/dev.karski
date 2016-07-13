@@ -5,11 +5,11 @@
 <!--[if IE 9 ]><html class="ie9 no-js"> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js"> <!--<![endif]--><html>
 <head>
-    <title>Pete Karski - Front End Developer</title>
+    <title>Pete Karski - Front End Developer and Designer</title>
     <!-- META DATA -->
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="description" content="Pete Karski - Front End Developer"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui"/>
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" >
     <meta name="theme-color" content="#473C39">
     <meta name="msapplication-navbutton-color" content="#473C39">

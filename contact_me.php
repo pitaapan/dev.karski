@@ -1,9 +1,10 @@
 <?php
 if($_POST)
 {
- $to_Email = "karski.piotr@gmail.com"; //Podaj tu email docelowy
- $subject = 'Ah!! My email from Somebody out there...'; //Tutaj temat wiadomości - możesz też wykorzystać pole formularza i pobrać tą wartość od klienta
  
+ $MAIL_from = 'Karski.nz Form <form@karski.nz>';
+ $to_Email = "karski.piotr@gmail.com"; //Podaj tu email docelowy
+ $subject = 'Hello, Pete my Man!'; //Tutaj temat wiadomości - możesz też wykorzystać pole formularza i pobrać tą wartość od klienta
  
  //Sprawdzamy czy jest to rządanie Ajax, jeśli nie..
  if(!isset($_SERVER['HTTP_X_REQUESTED_WITH']) AND strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') {
@@ -12,7 +13,7 @@ if($_POST)
  $output = json_encode(
  array(
  'type'=>'error', 
- 'text' => 'Rządanie musi przejść przez AJAX'
+ 'text' => 'The request must go through AJAX'
  ));
  
  die($output);
@@ -72,7 +73,7 @@ if($_POST)
  $output = json_encode(array('type'=>'error', 'text' => 'There was an unexpected error! Sorry '.$user_Name));
  die($output);
  }else{
- $output = json_encode(array('type'=>'message', 'text' => 'Hi '.$user_Name .', Thank you for your message!'));
+ $output = json_encode(array('type'=>'message', 'text' => 'Hi '.$user_Name .',<br>Thank you for your message!'));
  die($output);
  }
 }

@@ -62,24 +62,23 @@
         </section><!-- fullpage-section -->
     </footer>
 
-        </div><!-- site-wrapper -->
-            <div class="overlay overlay--imprint vertical-align-helper text-align--s-center background-color--white" data-overlay="easter-egg">
-                    <a data-overlay="easter-egg" class="overlay__background"></a>
-                    <div class="overlay__content vertical-align--s-middle">
-                            <div class="row padding--s-2 padding--m-4 padding--horizontal--xl-5 padding--vertical--xl-8">
-                                <div class="column--s-12">
-                                            <h5 class="text-align--s-center">Pete Karski the Rock Star</h5>
-
-        <iframe src="https://www.youtube-nocookie.com/embed/tkNComNbipQ?rel=0&amp;controls=1&amp;autoplay=0" frameborder="0" allowfullscreen="0"></iframe>
-
-                                            <h5 class="subtitled">Copyright &copy; <?php echo date('Y')?></h5>
-                                            <p>
-                                                    Pete Karski find a sample disclaimer please... Any similaries may be accidental didn#t indend ans stuff...
-                                            </p>
-                                    </div>
-                            </div>
+    </div><!-- site-wrapper -->
+        <div class="overlay overlay--imprint vertical-align-helper text-align--s-center background-color--dark-grey text-color--white" data-overlay="easter-egg">
+            <a data-overlay="easter-egg" class="overlay__background"></a>
+            <div class="overlay__content vertical-align--s-middle">
+                <div class="row padding--s-2 padding--m-4 padding--horizontal--xl-5 padding--vertical--xl-8">
+                    <div class="column--s-12">
+                        <h5 class="text-align--s-center">Pete Karski<br>The Rock Star</h5>
+                        <iframe src="https://www.youtube-nocookie.com/embed/IIXOFagZX24?rel=0&amp;controls=1&amp;autoplay=0" frameborder="0" allowfullscreen="0"></iframe>
+                        <h5 class="subtitled">Disclaimer</h5>
+                        <p>
+                        Any strings, characters, digits, pictures, events and incidents are either the products of the author's imagination or used in a fictitious manner. Any resemblance to actual web entities, living or dead, or actual events is purely coincidental, yet possible. No animals were harmed during the production of this website. The cat got sick and somebody stepped on a spider, but that's about it.<br>
+                        </p>
+                        <p><small>Copyright &copy; <?php echo date('Y')?></small></p>
                     </div>
-                    <a data-overlay="easter-egg" target="_blank" class="overlay__close button button--default button--icon-only button--black-to-red" href="#"><span class="button__icon"><i class="icon">C</i></span></a>
+                </div>
+            </div>
+        <a data-overlay="easter-egg" target="_blank" class="overlay__close button button--default button--icon-only button--black-to-red" href="#"><span class="button__icon"><i class="icon">C</i></span></a>
         </div><!-- overlay--imprint -->
 
         <!-- Overlay Main Menu -->
@@ -90,17 +89,20 @@
                     <div class="column--s-12">
                         <nav class="main-nav text-color--red">
                             <ul>
-                                <li><a data-overlay="main-menu" class="underlined--white" href="#about">About
-                                        <span>A few words about your truly</span>
+                                <li><a data-overlay="main-menu" class="underlined--white" href="#home">Home
+                                        <span>Let's start from the top</span>
                                     </a></li>
+                                <li><a data-overlay="main-menu" class="underlined--white" href="#about">About
+                                    <span>A few words about yours truly</span>
+                                </a></li>
                                 <li><a data-overlay="main-menu" class="underlined--white" href="#skills">Skills
                                         <span>What I am good and awesome at</span>
                                     </a></li>
                                 <li><a data-overlay="main-menu" class="underlined--white" href="#work">Portfolio
-                                        <span>A selection of my favourite work</span>
+                                        <span>A selection of my favourite works</span>
                                     </a></li>
-                                <li><a data-overlay="main-menu" class="underlined--white" href="#contact">Hire Me
-                                        <span>Available for Hire. Download my CV.</span>
+                                <li><a data-overlay="main-menu" class="underlined--white" href="#contact">Contact
+                                        <span>Available 4 Hire</span>
                                     </a></li>
                             </ul>
                         </nav>

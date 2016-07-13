@@ -22,7 +22,7 @@
             <div id="gg_promo_avatar" class="avatar"></div>
             
             <div class="block__content vertical-align-helper text-align--s-center">
-                <h1 class="vertical-align--s-middle text-color--white">Front End Developer</h1>
+                <h1 class="vertical-align--s-middle text-color--white">Front End Developer<span>AND DESIGNER</span></h1>
                 <div class="signature">
                     <?php include 'elements/signature.php'; ?>
                 </div>
